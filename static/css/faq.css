@@ -1,0 +1,111 @@
+  /* FAQ */
+  .faq {
+    min-height: 560px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container_ {
+    position: relative;
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  }
+  
+  .accordion {
+    margin-left: 40px;
+    width: 900px;
+      display: flex;
+  }
+  
+  .title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .content-accordion {
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+  
+  .question-answer {
+    border-bottom: 1.4px solid black;
+    width: 380px;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .accordion-img {
+    position: relative;
+    width: 420px;
+    top: 80px;
+  }
+  
+  .title-question {
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+  }
+  
+  .question-btn {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  
+  .answer {
+    font-size: 20px;
+    line-height: 1.5;
+    display: none;
+  }
+  
+  .show-text .answer {
+    display: block;
+  }
+  
+  /* terms & conditions */
+
+/* Style the terms box */
+.terms {
+  background-color: white;
+  padding: 20px;
+  max-width: 100%;
+  text-align:justify;
+}
+
+/* Style headings */
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* Style paragraphs */
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Style links */
+.con {
+  color: black;
+  text-decoration: none;
+}
+
+.con:hover {
+  color: maroon;
+  text-decoration: underline;
+}
+

@@ -1,0 +1,100 @@
+{% load static %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
+<div class="top-bar">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6"> 
+    <div class="tb-contact">
+    <p><i class="fas fa-envelope"></i>
+    <a href="mailto:sanjivani741@gmail.com" class="__cf_email__" data-cfemail="">sanjivani741@gmail.com</a></p>
+    <p><i class="fas fa-phone-alt"></i>102</p>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <div class="tb-menu">
+    <a href="{% url 'home:faq' %}">
+      {% if 'faq' in request.path %}
+      {% else %}
+      {% endif %}{% trans "Terms" %}</a>
+    <a href="{% url 'home:contact' %}">
+      {% if 'contact' in request.path %}
+      {% else %}
+      {% endif %}{% trans "Contact" %}</a>
+    <a href="/en{{ request.get_full_path|slice:'3:' }}" role="button">English</a>
+    <a href="/hi{{ request.get_full_path|slice:'3:' }}" role="button">हिन्दी</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="brand">
+    <div class="container">
+    <div class="row align-items-center">
+    <div class="col-lg-4 col-md-4">
+    <div class="b-logo">
+    <a href="{% url 'home:donor' %}">
+      {% if 'donor' in request.path %}
+      {% else %}
+      {% endif %}
+    <img src="{% static 'images/logo.png' %}" alt="Logo" width="100px"> </a>
+    <span style="color: maroon; font-size: 27px; font-weight: bolder;">{% trans "SANJIVANI" %} <i class="fas fa-heartbeat"></i></span>
+   
+    </div>
+    </div>
+    <div class="col-lg-5 col-md-4">
+      <div class="b-ads">
+      </div>
+      </div>
+      <div class="col-lg-3 col-md-4">
+        <div class="b-search">
+            <form onsubmit="highlightAndScroll(); return false;">
+                <input type="text" id="searchInput" placeholder={% trans "Search" %}>
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    
+        </div>
+        </div>
+        </div>
+    
+    
+    <div class="nav-bar">
+    <div class="container">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a href="#" class="navbar-brand">{% trans "MENU" %}</a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Collapse">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="Collapse">
+    <div class="navbar-nav mr-auto">
+    <a href="{% url 'home:join' %}" class="nav-item nav-link active">
+      {% if 'join' in request.path %}
+      {% else %}
+      {% endif %}{% trans "JOIN US" %}</a>
+      
+    <a href="{% url 'home:index' %}#about" class="nav-item nav-link">{% trans "ABOUT SANJIVANI" %}</a>
+
+    <a href="{% url 'home:check' %}" class="nav-item nav-link">
+      {% if 'check' in request.path %}
+      {% else %}
+      {% endif %}{% trans "ELIGIBILITY" %}</a>
+
+    <a href="{% url 'home:events' %}" class="nav-item nav-link"> 
+      {% if 'events' in request.path %}
+      {% else %}
+      {% endif %} {% trans "EVENTS" %}</a>
+      
+    </div>
+    <div class="social ml-auto">
+    <a href="https://t.me/Shreya_0sb"><i class="fab fa-telegram"></i></a>
+    <a href="https://www.linkedin.com/in/shreya-bansal-8754b9227"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.instagram.com/shreya._.sb/"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/9417407577"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    </div>
+    </nav>
+    </div>
+    </div>
+

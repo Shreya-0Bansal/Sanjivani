@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+ {% endblock %} 
+{% block content %}
+<div class="container_">
+  <div class="form">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="contact-info">
+        <h3 class="title2">{% trans "Get In Touch" %}</h3>
+        <input type="hidden" name="form_type" id="contact" value="contact">
+        <p class="text">
+          {% trans "Have a little something you wanna talk to about? Well give us a ring, send us a mail or fill out that nifty form." %}
+        </p>
+
+        <div class="info">
+          <div class="information">
+            <img src="{% static 'images/location.jpg' %}" class="icon" alt="" />
+            <p>{% trans "Ludhiana, India - 141002" %}</p>
+          </div> 
+          <div class="information">
+            <img src="{% static 'images/email.png' %}"class="icon" alt="" />
+            <p>sanjivani741@gmail.com</p>
+          </div>
+          <div class="information">
+            <img src="{% static 'images/phone.jpg' %}" class="icon" alt="" />
+            <p>9417407577</p>
+          </div>
+        </div>
+        <div class="social-media">
+          <p>{% trans "Connect with us :" %}</p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/shreya-bansal-8754b9227">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="contact-form">
+        
+        <form class="con" action="" method="post"> 
+          {% csrf_token %}
+          <div id="messages">
+            {% if messages %}
+                {% for message in messages %}
+                {% if "contact" in message.tags %}
+                    <div class="alert alert-success">
+                        {{ message }}
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+          <h3 class="title2">{% trans "Contact Us" %}</h3>
+          <input type="hidden" name="form_type" id="contact" value="contact">
+          <div class="input-container">
+            <input type="text" name="name" placeholder={% trans "Name" %} class="input" required/>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email"placeholder={% trans "E-Mail" %} class="input" required/>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone"placeholder="+91 987 789 1221" class="input" />
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" placeholder={% trans "Message" %} class="input" required></textarea>
+          </div>
+          <input type="submit" value={% trans "Submit" %} class="btn2">
+          <input type="reset" value={% trans "Clear" %} class="btn2">
+        </form>
+    </div>
+  </div> 
+</div> 
+</div>
+</div>
+	<link rel="stylesheet" href="https://md-aqil.github.io/images/swiper.min.css">
+
+<section class="spacer">
+				<div class="testimonial-section">
+					<div class="testi-user-img">
+					<div class="swiper-container gallery-thumbs">
+						  <div class="swiper-wrapper">
+								  <div class="swiper-slide">
+										<img class="u3" src="{% static 'images/Angelina.jpeg' %}">
+									</div>
+						  <div class="swiper-slide">
+							  <img class="u1" src="{% static 'images/emma.jpg' %}">
+						  </div>
+						  <div class="swiper-slide">
+						  <img class="u2" src="{% static 'images/rock.jpeg' %}">
+						  </div>
+					  
+						  <div class="swiper-slide">
+						  <img class="u4" src="{% static 'images/Madonna.webp' %}">
+						  </div>
+						  
+						  </div>
+					  </div>
+					</div>
+					<div class="user-saying">
+						  <div class="swiper-container testimonial">
+								  <!-- Additional required wrapper -->
+								  <div class="swiper-wrapper ">
+									  <!-- Slides -->
+									  <div class="swiper-slide">
+										  <div class="quote">
+												  <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png">
+											  <p>
+                          {% trans "“To anyone considering giving blood, I encourage you to take that step. It's an act of compassion that can truly change lives...“" %}
+											  </p>
+											  <div class="name">{% trans "Angelina Jolie" %}</div>
+											  <div class="designation">{% trans "Actress and Humanitarian" %}</div>
+											  
+										  </div>
+									  </div>
+									  <div class="swiper-slide">
+										  <div class="quote">
+												<img class="quote-icon" src="https://md-aqil.github.io/images/quote.png">
+											
+											  <p>
+                          {% trans "“Blood donation is an act of love and solidarity. It's a reminder that we all have the capacity to make a positive impact...“" %}
+											  </p>
+											  <div class="name">{% trans "Emma Watson" %}</div>
+											  <div class="designation">{% trans "Actress and Activist" %}</div>
+											  
+										  </div>
+									  </div>
+									  <div class="swiper-slide">
+										  <div class="quote">
+												<img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+												  
+											  <p>
+                          {% trans "“Blood donation is one of the most impactful ways to help others. It's an honor to give back to our communities through this selfless act...“" %}
+											  </p>
+											  <div class="name">{% trans "Dwayne Johnson (The Rock)" %}</div>
+											  <div class="designation">{% trans "American actor and retired professional wrestler." %}</div>
+											  
+										  </div>
+									  </div>
+									  <div class="swiper-slide">
+											  <div class="quote">
+													<img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+												 
+												  <p>
+                            {% trans "“I believe in the power of small gestures. Donating blood is a beautiful way to contribute and help those in need...“" %}
+												  </p>
+												  <div class="name">{% trans "Madonna" %}</div>
+												  <div class="designation">{% trans "American singer and actress" %}</div>
+												  
+											  </div>
+										  </div>
+									  
+								  </div>
+								  <!-- If we need pagination -->
+								  <div class="swiper-pagination swiper-pagination-white"></div>
+							  
+							  </div>
+					</div>
+				</div>
+			</section>
+      <script src="https://md-aqil.github.io/images/swiper.min.js"></script>
+      <!-- END OF TESTIMONIALS -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+     
+      <script>
+        function highlightAndScroll() {
+            var searchQuery = document.getElementById("searchInput").value;
+            var content = document.body.innerHTML;
+    
+            var regex = new RegExp(searchQuery, 'gi');
+            var highlightedContent = content.replace(regex, '<mark>$&</mark>');
+    
+            document.body.innerHTML = highlightedContent;
+    
+            var firstMatch = document.querySelector("mark");
+            if (firstMatch) {
+                firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+    </script>
+    
+{% endblock %}

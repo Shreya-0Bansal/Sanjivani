@@ -1,0 +1,269 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/check.css' %}">
+ {% endblock %} 
+{% block content %}
+<div class="cop2">
+    <div class="contact-box">
+        <div class="row"> 
+            <div class="col-md-6">
+                <div class="left">
+                    <img src="{% static 'images/blood.jpg' %}">
+                    <img src="{% static 'images/blood2.jpg' %}">
+                    <img src="{% static 'images/blood3.jpg' %}">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right">
+                    <div id="messages">
+          {% if is_eligible is not None %}
+              {% if is_eligible %}
+                  <p class="eligibility-message"><mark>{% trans "Hello" %} {{ name }} {% trans ", you are eligible to donate blood." %}</mark></p>
+              {% else %}
+                  <p class="eligibility-message">{% trans "Hello" %} {{ name }}{% trans ", you are not eligible to donate blood due to the following reasons:" %}</p>
+                  <p><mark>{{reason}}</mark></p>
+              {% endif %}
+          {% endif %}
+        </div>
+      
+        <h2 class="hey">{% trans "CHECK ELIGIBILITY" %}</h2>
+        <input type="hidden" name="form_type" id="check" value="check">
+        <p class="text">
+          {% trans " By donating, you're not just giving a part of yourself; you're giving the gift of life and hope to someone in need. Your kindness knows no bounds!" %}
+        </p>
+        <form
+          action=""
+          method="post"
+        >
+        {% csrf_token %}
+        <input
+      type="text"
+      name="name"
+      placeholder={% trans "Name" %}
+      class="field"
+      required
+    />
+          <input
+            type="number"
+            name="age"
+            placeholder={% trans "Age (in years)" %}
+            class="field"
+            required
+          />
+          <input
+            type="number"
+            name="weight"
+            placeholder={% trans "Weight (in kg)" %}
+            class="field"
+            required
+          />
+          <select class="field" name="gender" required>
+            <option value="" disabled selected>{% trans "Gender" %}</option>
+            <option value="male">{% trans "Male" %}</option>
+        <option value="female">{% trans "Female" %}</option>
+        <option value="others">{% trans "Others" %}</option>
+        </select>
+      <select class="field" name="blood" required>
+        <option value="" disabled selected>{% trans "Blood Group" %}</option>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+    </select>
+      <select class="field" name="medical_history" required>
+        <option value="" disabled selected>{% trans "Medical History" %}</option>
+        <option value="None">{% trans "None" %}</option>
+        <option value="Diabetes">{% trans "Diabetes" %}</option>
+        <option value="Hypertension">{% trans "Hypertension" %}</option>
+        <option value="Heart Disease">{% trans "Heart Disease" %}</option>
+        <option value="Asthma">{% trans "Asthma" %}</option>
+        <option value="Anemia">{% trans "Anemia" %}</option>
+        <option value="HIV">{% trans "HIV" %}</option>
+        <option value="Cancer">{% trans "Cancer" %}</option>
+    </select>
+    
+    <input
+            type="floatformat"
+            name="hemoglobin"
+            placeholder={% trans "Hemoglobin Level (g/dL):" %}
+            class="field"
+            required
+          />
+          <select class="field" name="pregnant" required>
+            <option value="" disabled selected>{% trans "Are you currently pregnant?" %}</option>
+            <option value="Yes">{% trans "Yes" %}</option>
+        <option value="No">{% trans "No" %}</option>
+</select>
+        <select class="field" name="tattoos" required>
+          <option value="" disabled selected>{% trans "Had any tattoos or piercings in the last 12 months?" %}</option>
+          <option value="Yes">{% trans "Yes" %}</option>
+      <option value="No">{% trans "No" %}</option>
+</select>
+<select name="recent_blood_transfusion" class="field" required>
+  <option value="" disabled selected>{% trans "Have you had a recent blood transfusion?" %}</option>
+    <option value="Yes">{% trans "Yes" %}</option>
+    <option value="No">{% trans "No" %}</option>
+</select>
+      <select class="field" name="donate" required>
+        <option value="" disabled selected>{% trans "Have you donated blood in last 3 months?" %}</option>
+        <option value="Yes">{% trans "Yes" %}</option>
+    <option value="No">{% trans "No" %}</option>
+</select>
+          <input type="submit" value={% trans "Check Eligibility" %} class="btn3" /><br /><br />
+          <input type="reset" value={% trans "Clear" %} class="btn3" />
+        </form>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+  <!-- compatibility of blood groups -->
+
+      <section style="padding: 50px 0 15px 50px;">
+          <h1 style="text-decoration: solid;color: maroon; text-align: center; font-size: 50px;">{% trans "BLOOD COMPATIBILITY" %}</h1>
+          <form id="bloodCompatibilityForm">
+              {% csrf_token %}
+              <div class="row">
+                  <div class="col-3">
+                      <i class="bi bi-droplet-fill" style="color: maroon; font-size: 70px;">
+                          <input type="radio" name="donor_blood_group" value="A+">A+
+                      </i>
+                  </div>
+                  <div class="col-3">
+                      <i class="bi bi-droplet-fill" style="color: maroon; font-size: 70px;">
+                          <input type="radio" name="donor_blood_group" value="A-">A-
+                      </i>
+                  </div>
+                  <div class="col-3">
+                      <i class="bi bi-droplet-fill" style="color: maroon; font-size: 70px;">
+                          <input type="radio" name="donor_blood_group" value="B+">B+
+                      </i>
+                  </div>
+                  <div class="col-3">
+                      <i class="bi bi-droplet-fill" style="color: maroon; font-size: 70px;">
+                          <input type="radio" name="donor_blood_group" value="B-">B-
+                      </i>
+                  </div>
+              </div>
+  
+              <div class="row">
+                  <div class="col-3">
+                      <i class="bi bi-droplet-fill" style="color: maroon; font-size: 70px;">
+                          <input type="radio" name="donor_blood_group" value="AB+">AB+
+                      </i>
+                  </div>
+                  <div class="col-3">
+                      <i class="bi bi-droplet-fill" style="color: maroon; font-size: 70px;">
+                          <input type="radio" name="donor_blood_group" value="AB-">AB-
+                      </i>
+                  </div>
+                  <div class="col-3">
+                      <i class="bi bi-droplet-fill" style="color: maroon; font-size: 70px;">
+                          <input type="radio" name="donor_blood_group" value="O+">O+
+                      </i>
+                  </div>
+                  <div class="col-3">
+                      <i class="bi bi-droplet-fill" style="color: maroon; font-size: 70px;">
+                          <input type="radio" name="donor_blood_group" value="O-">O-
+                      </i>
+                  </div>
+              </div>
+          </form>
+          <div id="compatibilityResult" style="text-align: center; font-weight: bold;"></div>
+      </section>
+
+      <script>
+        const translations = {
+            aPlus: '{% trans "Can donate to A+, AB+ recipients" %}',
+            aPlusReceive: '{% trans "Can receive blood from A+, A-, O+, O-" %}',
+            aMinus: '{% trans "Can donate to A+, A-, AB+, AB- recipients" %}',
+            aMinusReceive: '{% trans "Can receive blood from A-, O-" %}',
+            bPlus: '{% trans "Can donate to B+, AB+ recipients" %}',
+            bPlusReceive: '{% trans "Can receive blood from B+, B-, O+, O-" %}',
+            bMinus: '{% trans "Can donate to B+, B-, AB+, AB- recipients" %}',
+            bMinusReceive: '{% trans "Can receive blood from B-, O-" %}',
+            abPlus: '{% trans "Can only donate to AB+ recipients" %}',
+            abPlusReceive: '{% trans "Can receive blood from all blood groups" %}',
+            abMinus: '{% trans "Can donate to AB+, AB- recipients" %}',
+            abMinusReceive: '{% trans "Can receive blood from AB-, A-, B-, O-" %}',
+            oPlus: '{% trans "Can donate to O+, A+, B+, AB+ recipients" %}',
+            oPlusReceive: '{% trans "Can receive blood from O+, O-" %}',
+            oMinus: '{% trans "Can donate to all blood types" %}',
+            oMinusReceive: '{% trans "Can receive blood from O-" %}',
+            selectBloodType: '{% trans "Select a blood type" %}',
+        };
+
+        const form = document.getElementById('bloodCompatibilityForm');
+        const compatibilityResult = document.getElementById('compatibilityResult');
+
+        form.addEventListener('change', function () {
+            const selectedBloodType = document.querySelector('input[name="donor_blood_group"]:checked').value;
+            let compatibilityMessage = '';
+
+            switch (selectedBloodType) {
+                case 'A+':
+                    compatibilityMessage = translations.aPlus;
+                    compatibilityMessage += '<br>' + translations.aPlusReceive;
+                    break;
+                case 'A-':
+                    compatibilityMessage = translations.aMinus;
+                    compatibilityMessage += '<br>' + translations.aMinusReceive;
+                    break;
+                case 'B+':
+                    compatibilityMessage = translations.bPlus;
+                    compatibilityMessage += '<br>' + translations.bPlusReceive;
+                    break;
+                case 'B-':
+                    compatibilityMessage = translations.bMinus;
+                    compatibilityMessage += '<br>' + translations.bMinusReceive;
+                    break;
+                case 'AB+':
+                    compatibilityMessage = translations.abPlus;
+                    compatibilityMessage += '<br>' + translations.abPlusReceive;
+                    break;
+                case 'AB-':
+                    compatibilityMessage = translations.abMinus;
+                    compatibilityMessage += '<br>' + translations.abMinusReceive;
+                    break;
+                case 'O+':
+                    compatibilityMessage = translations.oPlus;
+                    compatibilityMessage += '<br>' + translations.oPlusReceive;
+                    break;
+                case 'O-':
+                    compatibilityMessage = translations.oMinus;
+                    compatibilityMessage += '<br>' + translations.oMinusReceive;
+                    break;
+                default:
+                    compatibilityMessage = translations.selectBloodType;
+                    break;
+            }
+
+            compatibilityResult.innerHTML = `<mark>${compatibilityMessage}</mark>`;
+        });
+    </script>
+
+  
+<script>
+  function highlightAndScroll() {
+      var searchQuery = document.getElementById("searchInput").value;
+      var content = document.body.innerHTML;
+
+      var regex = new RegExp(searchQuery, 'gi');
+      var highlightedContent = content.replace(regex, '<mark>$&</mark>');
+
+      document.body.innerHTML = highlightedContent;
+
+      var firstMatch = document.querySelector("mark");
+      if (firstMatch) {
+          firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+  }
+</script>
+{% endblock %}

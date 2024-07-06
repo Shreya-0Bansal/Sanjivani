@@ -1,0 +1,103 @@
+{% load static %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
+<footer class="footer section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="footer-widget widget">
+
+					<ul class="list-unstyled footer-menu mt-4">
+						<li><a href="tel:+919417407577"><i class="icofont-phone"></i>+91 9417407577</a></li>
+						<li><a href="mailto:sanjivani741@gmail.com"><i class="icofont-email"></i>sanjivani741@gmail.com</a></li>
+					</ul>
+					<ul class="list-inline footer-socials">
+						<a href="https://www.instagram.com/shreya._.sb/"><li class="fab fa-instagram"><i class="icofont-instagram"></i></li></a>
+						<a href="https://t.me/Shreya_0sb"><li class="fab fa-telegram"><i class="icofont-telegram"></i></li></a>
+						<a href="https://www.linkedin.com/in/shreya-bansal-8754b9227"><li class="fab fa-linkedin-in"><i class="icofont-linkedin"></i></li></a>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="widget footer-widget">
+					<h3 class="text-capitalize mb-4 text-white">{% trans "Quick Links" %}</h3>
+					<ul class="list-unstyled footer-menu lh-35">
+						<li><a href="{% url 'home:index' %}#about">{% trans "About" %}</a></li>
+						<li><a href="{% url 'home:faq' %}">
+							{% if 'faq' in request.path %}
+      {% else %}
+      {% endif %}{% trans "FAQ" %}</a></li>
+						<li><a href="{% url 'home:contact' %}">
+							{% if 'contact' in request.path %}
+      {% else %}
+      {% endif %}{% trans "Contact" %}</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="foo col-lg-3 col-md-6 col-sm-6">
+				<div class="footer-widget widget">
+					<h3 class="text-capitalize mb-4 text-white">{% trans "Subscribe Us" %}</h3>
+					<p class="mb-4">{% trans "Subscribe to get latest news article and resources " %}</p>
+
+					<form action="" method="post" id="subscribe"  class="sub-form">
+						{% csrf_token %}
+						<input type="hidden" name="form_type" value="subscribe" id="subscribe">
+						<div id="messages">
+							{% if messages %}
+								{% for message in messages %}
+								{% if "subscribe" in message.tags %}
+									<div class="alert alert-success">
+										{{ message }}
+									</div>
+									{% endif %}
+								{% endfor %}
+							{% endif %}
+						</div>
+            <input type="email" name="email" class="form-control mb-4" placeholder={% trans "Subscribe_Now_..." %}>
+      <button class="btn btn-main btn-small rounded" type="submit">{% trans "Subscribe" %}</button>
+					</form>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="widget footer-widget">
+					<h3 class="text-capitalize mb-4 text-white">{% trans "Gallery" %}</h3>
+
+					<div class="gallery-wrap">
+						<div class="gallery-img">
+							<img src="{% static 'images/blood2.jpg' %}" style="border:3px solid rgb(219, 152, 152);" class="img-fluid">
+						</div>
+						<div class="gallery-img">
+							<img src="{% static 'images/blood4.jpg' %}" style="border:3px solid rgb(219, 152, 152);" class="img-fluid">
+						</div>
+						<div class="gallery-img">
+							<img src="{% static 'images/blood.jpg' %}" style="border:3px solid rgb(219, 152, 152);" class="img-fluid">
+						</div>
+						<div class="gallery-img">
+							<img src="{% static 'images/blood6.jpg' %}" style="border:3px solid rgb(219, 152, 152);" class="img-fluid">
+						</div>
+						<div class="gallery-img">
+							<img src="{% static 'images/blood3.jpg' %}" style="border:3px solid rgb(219, 152, 152);" class="img-fluid">
+						</div>
+						<div class="gallery-img">
+							<img src="{% static 'images/blood5.jpg' %}" style="border:3px solid rgb(219, 152, 152);" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-btm py-4">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div class="copyright text-center">
+						&copy; {% trans "Copyright Reserved to SANJIVANI by" %} <a href="" target="_blank" class="text-color"> {% trans "SHREYA " %} <i class="fas fa-heart"></i>
+            </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+

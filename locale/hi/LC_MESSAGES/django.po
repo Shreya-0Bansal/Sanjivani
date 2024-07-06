@@ -1,0 +1,2634 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-18 14:38+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\Templates\captcha_page.html:18
+msgid "SANJIVANI "
+msgstr "संजीवनी"
+
+#: .\Templates\captcha_page.html:19
+msgid "Stars unite, beats ignite, captcha's call, save lives bright."
+msgstr "तारे एकजुट होते हैं, धड़कनें प्रज्वलित होती हैं, कैप्चा की पुकार, उज्ज्वल जीवन बचाती हैं।"
+
+#: .\Templates\check.html:23 .\Templates\check.html:25
+msgid "Hello"
+msgstr "नमस्ते"
+
+#: .\Templates\check.html:23
+msgid ", you are eligible to donate blood."
+msgstr ", आप रक्तदान करने के पात्र हैं।"
+
+#: .\Templates\check.html:25
+msgid ", you are not eligible to donate blood due to the following reasons:"
+msgstr ", आप निम्नलिखित कारणों से रक्तदान करने के पात्र नहीं हैं:"
+
+#: .\Templates\check.html:31
+msgid "CHECK ELIGIBILITY"
+msgstr "पात्रता जांचें"
+
+#: .\Templates\check.html:34
+msgid ""
+" By donating, you're not just giving a part of yourself; you're giving the "
+"gift of life and hope to someone in need. Your kindness knows no bounds!"
+msgstr ""
+"दान करके, आप केवल अपना एक हिस्सा ही नहीं दे रहे हैं; आप किसी जरूरतमंद को जीवन और आशा "
+"का उपहार दे रहे हैं। आपकी दयालुता की कोई सीमा नहीं है!"
+
+#: .\Templates\check.html:44 .\Templates\contact.html:71
+#: .\Templates\redirect.html:15
+msgid "Name"
+msgstr "नाम"
+
+#: .\Templates\check.html:51
+msgid "Age (in years)"
+msgstr "उम्र (वर्ष में)"
+
+#: .\Templates\check.html:58
+msgid "Weight (in kg)"
+msgstr "वजन (किलो में)"
+
+#: .\Templates\check.html:63 .\Templates\donor.html:58
+#: .\Templates\organ.html:58
+msgid "Gender"
+msgstr "लिंग"
+
+#: .\Templates\check.html:64 .\Templates\donor.html:61
+#: .\Templates\organ.html:61
+msgid "Male"
+msgstr "पुरुष"
+
+#: .\Templates\check.html:65 .\Templates\donor.html:63
+#: .\Templates\organ.html:63
+msgid "Female"
+msgstr "महिला"
+
+#: .\Templates\check.html:66
+msgid "Others"
+msgstr "अन्य"
+
+#: .\Templates\check.html:69 .\Templates\donor.html:133
+#: .\Templates\looking.html:117
+msgid "Blood Group"
+msgstr "ब्लड ग्रुप"
+
+#: .\Templates\check.html:80 .\Templates\redirect.html:21
+msgid "Medical History"
+msgstr "चिकित्सा का इतिहास:"
+
+#: .\Templates\check.html:81
+msgid "None"
+msgstr "कोई नहीं"
+
+#: .\Templates\check.html:82
+msgid "Diabetes"
+msgstr "कोई नहीं"
+
+#: .\Templates\check.html:83
+msgid "Hypertension"
+msgstr "उच्च रक्तचाप"
+
+#: .\Templates\check.html:84
+msgid "Heart Disease"
+msgstr "दिल की बीमारी"
+
+#: .\Templates\check.html:85
+msgid "Asthma"
+msgstr "दमा"
+
+#: .\Templates\check.html:86
+msgid "Anemia"
+msgstr "खून की कमी"
+
+#: .\Templates\check.html:87
+msgid "HIV"
+msgstr "एचआईवी"
+
+#: .\Templates\check.html:88
+msgid "Cancer"
+msgstr "कैंसर"
+
+#: .\Templates\check.html:94
+msgid "Hemoglobin Level (g/dL):"
+msgstr "हीमोग्लोबिन स्तर (जी/डीएल):"
+
+#: .\Templates\check.html:99
+msgid "Are you currently pregnant?"
+msgstr "क्या आप इस समय गर्भवती हैं?"
+
+#: .\Templates\check.html:100 .\Templates\check.html:105
+#: .\Templates\check.html:110 .\Templates\check.html:115
+#: .\mywebsite\Lib\site-packages\django\forms\widgets.py:795
+msgid "Yes"
+msgstr "हाँ"
+
+#: .\Templates\check.html:101 .\Templates\check.html:106
+#: .\Templates\check.html:111 .\Templates\check.html:116
+#: .\mywebsite\Lib\site-packages\django\forms\widgets.py:796
+msgid "No"
+msgstr "नहीं"
+
+#: .\Templates\check.html:104
+msgid "Had any tattoos or piercings in the last 12 months?"
+msgstr "पिछले 12 महीनों में कोई टैटू या छेदन कराया है?"
+
+#: .\Templates\check.html:109
+msgid "Have you had a recent blood transfusion?"
+msgstr "क्या आपको हाल ही में रक्त आधान हुआ है?"
+
+#: .\Templates\check.html:114
+msgid "Have you donated blood in last 3 months?"
+msgstr "क्या आपने पिछले 3 महीनों में रक्तदान किया है?"
+
+#: .\Templates\check.html:118
+msgid "Check Eligibility"
+msgstr "पात्रता जांचें"
+
+#: .\Templates\check.html:119 .\Templates\contact.html:83
+#: .\Templates\donor.html:155 .\Templates\looking.html:142
+#: .\Templates\organ.html:205
+#: .\mywebsite\Lib\site-packages\django\forms\widgets.py:463
+msgid "Clear"
+msgstr "साफ़"
+
+#: .\Templates\check.html:130
+msgid "BLOOD COMPATIBILITY"
+msgstr "रक्त अनुकूलता"
+
+#: .\Templates\check.html:184
+msgid "Can donate to A+, AB+ recipients"
+msgstr "A+, AB+ प्राप्तकर्ताओं को दान कर सकता है"
+
+#: .\Templates\check.html:185
+msgid "Can receive blood from A+, A-, O+, O-"
+msgstr "A+, A-, O+, O- से रक्त प्राप्त कर सकता है"
+
+#: .\Templates\check.html:186
+msgid "Can donate to A+, A-, AB+, AB- recipients"
+msgstr "A+, A-, AB+, AB- प्राप्तकर्ताओं को दान कर सकता है"
+
+#: .\Templates\check.html:187
+msgid "Can receive blood from A-, O-"
+msgstr "A-, O- से रक्त प्राप्त कर सकता है"
+
+#: .\Templates\check.html:188
+msgid "Can donate to B+, AB+ recipients"
+msgstr "B+, AB+ प्राप्तकर्ताओं को दान कर सकता है"
+
+#: .\Templates\check.html:189
+msgid "Can receive blood from B+, B-, O+, O-"
+msgstr "B+, B-, O+, O- से रक्त प्राप्त कर सकता है"
+
+#: .\Templates\check.html:190
+msgid "Can donate to B+, B-, AB+, AB- recipients"
+msgstr "B+, B-, AB+, AB- प्राप्तकर्ताओं को दान कर सकता है"
+
+#: .\Templates\check.html:191
+msgid "Can receive blood from B-, O-"
+msgstr "B-, O- से रक्त प्राप्त कर सकता है"
+
+#: .\Templates\check.html:192
+msgid "Can only donate to AB+ recipients"
+msgstr "केवल AB+ प्राप्तकर्ताओं को दान कर सकता है"
+
+#: .\Templates\check.html:193
+msgid "Can receive blood from all blood groups"
+msgstr "सभी रक्त समूहों से रक्त प्राप्त कर सकता है"
+
+#: .\Templates\check.html:194
+msgid "Can donate to AB+, AB- recipients"
+msgstr "AB+, AB- प्राप्तकर्ताओं को दान कर सकता है"
+
+#: .\Templates\check.html:195
+msgid "Can receive blood from AB-, A-, B-, O-"
+msgstr "AB-, A-, B-, O- से रक्त प्राप्त कर सकता है"
+
+#: .\Templates\check.html:196
+msgid "Can donate to O+, A+, B+, AB+ recipients"
+msgstr "O+, A+, B+, AB+ प्राप्तकर्ताओं को दान कर सकता है"
+
+#: .\Templates\check.html:197
+msgid "Can receive blood from O+, O-"
+msgstr "O+, O- से रक्त प्राप्त कर सकता है"
+
+#: .\Templates\check.html:198
+msgid "Can donate to all blood types"
+msgstr "सभी रक्त प्रकारों को दान कर सकता है"
+
+#: .\Templates\check.html:199
+msgid "Can receive blood from O-"
+msgstr "O- से रक्त प्राप्त कर सकता है"
+
+#: .\Templates\check.html:200
+msgid "Select a blood type"
+msgstr "रक्त समूह चुनें:"
+
+#: .\Templates\contact.html:13
+msgid "Get In Touch"
+msgstr "संपर्क में रहो"
+
+#: .\Templates\contact.html:16
+msgid ""
+"Have a little something you wanna talk to about? Well give us a ring, send "
+"us a mail or fill out that nifty form."
+msgstr ""
+"क्या आपके पास कुछ ऐसा है जिसके बारे में आप बात करना चाहते हैं? खैर, हमें एक रिंग भेजें, हमें एक "
+"मेल भेजें या वह निफ्टी फॉर्म भरें।"
+
+#: .\Templates\contact.html:22
+msgid "Ludhiana, India - 141002"
+msgstr "लुधियाना, भारत - 141002"
+
+#: .\Templates\contact.html:34
+msgid "Connect with us :"
+msgstr "हमारे साथ जुड़ें :"
+
+#: .\Templates\contact.html:68
+msgid "Contact Us"
+msgstr "संपर्क"
+
+#: .\Templates\contact.html:74
+msgid "E-Mail"
+msgstr "ईमेल"
+
+#: .\Templates\contact.html:80
+msgid "Message"
+msgstr "संदेश"
+
+#: .\Templates\contact.html:82
+msgid "Submit"
+msgstr "जमा करना"
+
+#: .\Templates\contact.html:123
+msgid ""
+"“To anyone considering giving blood, I encourage you to take that step. It's "
+"an act of compassion that can truly change lives...“"
+msgstr ""
+"“रक्त देने पर विचार करने वाले किसी भी व्यक्ति को, मैं आपको यह कदम उठाने के लिए "
+"प्रोत्साहित करता हूँ। यह करुणा का कार्य है जो वास्तव में जीवन बदल सकता है...“"
+
+#: .\Templates\contact.html:125
+msgid "Angelina Jolie"
+msgstr "एंजेलीना जोली"
+
+#: .\Templates\contact.html:126
+msgid "Actress and Humanitarian"
+msgstr "अभिनेत्री और मानवतावादी"
+
+#: .\Templates\contact.html:135
+msgid ""
+"“Blood donation is an act of love and solidarity. It's a reminder that we "
+"all have the capacity to make a positive impact...“"
+msgstr ""
+"“रक्तदान प्रेम और एकजुटता का एक कार्य है। यह एक अनुस्मारक है कि हम सभी में सकारात्मक "
+"प्रभाव डालने की क्षमता है...“"
+
+#: .\Templates\contact.html:137
+msgid "Emma Watson"
+msgstr "एम्मा वाटसन"
+
+#: .\Templates\contact.html:138
+msgid "Actress and Activist"
+msgstr "अभिनेत्री और कार्यकर्ता"
+
+#: .\Templates\contact.html:147
+msgid ""
+"“Blood donation is one of the most impactful ways to help others. It's an "
+"honor to give back to our communities through this selfless act...“"
+msgstr ""
+"“रक्तदान दूसरों की मदद करने के सबसे प्रभावशाली तरीकों में से एक है। इस निस्वार्थ कार्य के "
+"माध्यम से अपने समुदायों को वापस लौटाना सम्मान की बात है...“"
+
+#: .\Templates\contact.html:149
+msgid "Dwayne Johnson (The Rock)"
+msgstr "ड्वेन जॉनसन (द रॉक)"
+
+#: .\Templates\contact.html:150
+msgid "American actor and retired professional wrestler."
+msgstr "अमेरिकी अभिनेता और सेवानिवृत्त पेशेवर पहलवान।"
+
+#: .\Templates\contact.html:159
+msgid ""
+"“I believe in the power of small gestures. Donating blood is a beautiful way "
+"to contribute and help those in need...“"
+msgstr ""
+"“मैं छोटे इशारों की शक्ति में विश्वास करता हूं। रक्तदान योगदान देने और जरूरतमंद लोगों की मदद "
+"करने का एक खूबसूरत तरीका है...“"
+
+#: .\Templates\contact.html:161
+msgid "Madonna"
+msgstr "मदोना"
+
+#: .\Templates\contact.html:162
+msgid "American singer and actress"
+msgstr "अमेरिकी गायिका और अभिनेत्री"
+
+#: .\Templates\donor.html:26
+msgid "BE A DONOR"
+msgstr "एक नायक बनो।"
+
+#: .\Templates\donor.html:29
+msgid "Full_Name"
+msgstr "पूरा_नाम"
+
+#: .\Templates\donor.html:35
+msgid "Email_Address"
+msgstr "मेल_पता"
+
+#: .\Templates\donor.html:41 .\Templates\looking.html:34
+#: .\Templates\organ.html:41 .\Templates\redirect.html:17
+msgid "Phone"
+msgstr "फ़ोन"
+
+#: .\Templates\donor.html:49 .\Templates\looking.html:42
+#: .\Templates\organ.html:49
+msgid "Date of Birth"
+msgstr "जन्म की तारीख"
+
+#: .\Templates\donor.html:52 .\Templates\looking.html:45
+#: .\Templates\organ.html:52
+msgid "DOB"
+msgstr "जन्म तिथि"
+
+#: .\Templates\donor.html:65 .\Templates\organ.html:65
+msgid "Other"
+msgstr "अन्य"
+
+#: .\Templates\donor.html:67 .\Templates\organ.html:67
+msgid "Prefer not to say"
+msgstr "चुप रहना पसंद करूंगा"
+
+#: .\Templates\donor.html:72
+msgid "Medical History:"
+msgstr "चिकित्सा का इतिहास:"
+
+#: .\Templates\donor.html:79 .\Templates\looking.html:52
+#: .\Templates\organ.html:72
+msgid "Address:"
+msgstr "पता:"
+
+#: .\Templates\donor.html:85 .\Templates\looking.html:59
+#: .\Templates\organ.html:79
+msgid "State:"
+msgstr "राज्य:"
+
+#: .\Templates\donor.html:88 .\Templates\looking.html:62
+#: .\Templates\organ.html:82
+msgid "Select State"
+msgstr "राज्य चुनें"
+
+#: .\Templates\donor.html:96 .\Templates\looking.html:70
+#: .\Templates\organ.html:90
+msgid "City:"
+msgstr "शहर:"
+
+#: .\Templates\donor.html:99 .\Templates\looking.html:73
+#: .\Templates\organ.html:93
+msgid "Select City"
+msgstr "शहर चुनें"
+
+#: .\Templates\donor.html:130 .\Templates\looking.html:114
+msgid "Select Blood Group:"
+msgstr "रक्त समूह चुनें:"
+
+#: .\Templates\donor.html:148 .\Templates\organ.html:198
+msgid "Terms and Conditions"
+msgstr "नियम और शर्तें"
+
+#: .\Templates\donor.html:151 .\Templates\organ.html:201
+msgid ""
+"I accept the terms and conditions and hereby confirm I have read the privacy "
+"policy."
+msgstr ""
+"मैं नियम और शर्तें स्वीकार करता हूं और इसके द्वारा पुष्टि करता हूं कि मैंने गोपनीयता नीति पढ़ "
+"ली है।"
+
+#: .\Templates\donor.html:154 .\Templates\organ.html:204
+msgid "Register_As_Donor"
+msgstr "दाता_के_रूप_में_पंजीकरण_करें"
+
+#: .\Templates\events.html:10 .\Templates\header.html:87
+msgid "EVENTS"
+msgstr "आयोजन"
+
+#: .\Templates\events.html:17
+msgid "Champions Gala"
+msgstr "चैंपियंस गाला"
+
+#: .\Templates\events.html:20
+msgid "Thursday, April 4, 2024"
+msgstr "गुरुवार, 4 अप्रैल 2024"
+
+#: .\Templates\events.html:21
+msgid "Venue: Suburban Collection Showplace, United States "
+msgstr "स्थान: उपनगरीय संग्रह शोप्लेस, संयुक्त राज्य अमेरिका"
+
+#: .\Templates\events.html:24
+msgid ""
+"The annual Champions Gala has recognized more than 100 people and "
+"organizations supporting organ, eye and tissue donation at the highest level "
+"in Michigan since the event began in 2019."
+msgstr "वार्षिक चैंपियंस गाला ने 2019 में कार्यक्रम शुरू होने के बाद से मिशिगन में उच्चतम स्तर पर अंग, नेत्र और ऊतक दान का समर्थन करने वाले 100 से अधिक लोगों और संगठनों को मान्यता दी है।"
+
+#: .\Templates\events.html:27 .\Templates\events.html:47
+#: .\Templates\events.html:67 .\Templates\events.html:87
+msgid "Learn More"
+msgstr "और अधिक जानें"
+
+#: .\Templates\events.html:37
+msgid "Healthcare Summit 2023"
+msgstr "हेल्थकेयर समिट 2023"
+
+#: .\Templates\events.html:40
+msgid "Thurs, 24th August 2023"
+msgstr "गुरुवार, 24 अगस्त 2023"
+
+#: .\Templates\events.html:41
+msgid "Venue: ITC Maurya, New Delhi"
+msgstr "स्थान: आईटीसी मौर्य, नई दिल्ली"
+
+#: .\Templates\events.html:44
+msgid ""
+"It's time again for our stellar third edition of the Healthcare Leaders "
+"Summit hosted by The Economic Times - ETHealthworld, an annual gathering "
+"where policymakers, academicians, and healthcare stakeholders come together "
+"to discuss important healthcare issues in India and beyond."
+msgstr ""
+"यह फिर से हमारे उत्कृष्ट तृतीय संस्करण के लिए स्वास्थ्य संचालकों के सम्मेलन का समय है जिसे द "
+"इकोनॉमिक टाइम्स - ईटीहेल्थवर्ल्ड द्वारा आयोजित किया गया है, एक वार्षिक समागम है जहां "
+"नीति निर्माता, शिक्षाविदों और स्वास्थ्य स्ताकों को एकत्रित होने का अवसर मिलता है ताकि वे "
+"भारत और उसके पार में महत्वपूर्ण स्वास्थ्य समस्याओं पर चर्चा कर सकें।"
+
+#: .\Templates\events.html:57
+msgid "Mumbai Ultra Blood Donation"
+msgstr "मुंबई अल्ट्रा ब्लड डोनेशन"
+
+#: .\Templates\events.html:60
+msgid " Tue, Aug 15 2023"
+msgstr "मंगलवार, 15 अगस्त 2023"
+
+#: .\Templates\events.html:61
+msgid ""
+"Venue: Swatantryaveer Savarkar Rashtriya Smarak, Swatantryaveer Savarkar "
+"Rashtriya Smarak, 252, Veer Savarkar Marg, Shivaji Park, Dadar W,Mumbai, "
+"India, Mumbai, India"
+msgstr ""
+"स्थान: स्वातंत्र्यवीर सावरकर राष्ट्रीय स्मारक, स्वातंत्र्यवीर सावरकर राष्ट्रीय स्मारक, 252, "
+"वीर सावरकर मार्ग, शिवाजी पार्क, दादर डब्ल्यू, मुंबई, भारत, मुंबई, भारत"
+
+#: .\Templates\events.html:64
+msgid ""
+"Team Mumbai Ultra alongwith Tata Memorial Hospital & Swatantryaveer Savarkar "
+"Smarak are conduting the Annual Marathon 12 Hour Blood Donation Drive for "
+"the 4th year in a row."
+msgstr ""
+"टाटा मेमोरियल हॉस्पिटल और स्वातंत्र्यवीर सावरकर स्मारक के साथ टीम मुंबई अल्ट्रा लगातार "
+"चौथे साल वार्षिक मैराथन 12 घंटे रक्तदान अभियान चला रही है।"
+
+#: .\Templates\events.html:77
+msgid "SR. NTR MEMORIAL 10K RUN 2023"
+msgstr "एसआर. एनटीआर मेमोरियल 10K रन 2023"
+
+#: .\Templates\events.html:80
+msgid "Sunday,September 10th 2023"
+msgstr "रविवार, 10 सितम्बर 2023"
+
+#: .\Templates\events.html:81
+msgid " Venue: People's Plaza Necklace Road Hyderabad"
+msgstr "स्थान: पीपुल्स प्लाजा नेकलेस रोड हैदराबाद"
+
+#: .\Templates\events.html:84
+msgid ""
+"Lace up your running shoes and be part of this impactful event that "
+"celebrates the memory of the legendary actor Senior NTR and supports those "
+"affected by cancer."
+msgstr ""
+"अपने दौड़ने वाले जूतों के फीते बांधें और इस प्रभावशाली कार्यक्रम का हिस्सा बनें जो महान "
+"अभिनेता सीनियर एनटीआर की स्मृति का जश्न मनाता है और कैंसर से प्रभावित लोगों का समर्थन "
+"करता है।"
+
+#: .\Templates\faq.html:11
+msgid "Frequently Asked Questions"
+msgstr "अक्सर पूछे जाने वाले प्रश्न"
+
+#: .\Templates\faq.html:23
+msgid "What is the business model of SANJIVANI?"
+msgstr "संजीवनी का बिजनेस मॉडल क्या है?"
+
+#: .\Templates\faq.html:36
+msgid ""
+"  Sanjivani's business model aims to create a sustainable and scalable "
+"platform that connects generous blood donors with patients in need, "
+"effectively saving lives and making a significant contribution to the "
+"healthcare ecosystem."
+msgstr ""
+"संजीवनी के बिजनेस मॉडल का लक्ष्य एक टिकाऊ और स्केलेबल प्लेटफॉर्म बनाना है जो उदार "
+"रक्तदाताओं को जरूरतमंद मरीजों से जोड़ता है, प्रभावी ढंग से जीवन बचाता है और स्वास्थ्य देखभाल "
+"पारिस्थितिकी तंत्र में महत्वपूर्ण योगदान देता है।"
+
+#: .\Templates\faq.html:42
+msgid "Is blood donation safe?"
+msgstr "क्या रक्तदान सुरक्षित है?"
+
+#: .\Templates\faq.html:54
+msgid ""
+" Yes, blood donation is safe when conducted by trained professionals in a "
+"sterile environment. Strict safety protocols are followed to ensure the well-"
+"being of donors and recipients."
+msgstr ""
+" हां, रक्तदान सुरक्षित होता है जब इसे प्रशिक्षित पेशेवरों द्वारा एक स्वच्छ वातावरण में किया "
+"जाता है। सख्त सुरक्षा प्रोटोकॉल का पालन किया जाता है ताकि दाताओं और प्राप्तकर्ताओं का "
+"भला-भाँति ध्यान रखा जा सके।"
+
+#: .\Templates\faq.html:61
+msgid "  What are the basic eligibility criteria for blood donation?"
+msgstr "  रक्तदान के लिए मौलिक पात्रता मानदंड क्या हैं?"
+
+#: .\Templates\faq.html:74
+msgid ""
+" The basic eligibility criteria typically include being at least 17 years "
+"old (may vary by country), meeting minimum weight requirements, being in "
+"good health, and not having certain medical conditions or infections."
+msgstr ""
+" मौलिक पात्रता मानदंड सामान्य रूप से कम से कम 17 वर्ष की आयु होनी चाहिए  (देशानुसार "
+"भिन्न हो सकती है), न्यूनतम वजन की आवश्यकता को पूरा करना, अच्छे स्वास्थ्य में होना, और कुछ "
+"विशेष चिकित्सा स्थितियों या संक्रमणों का सामना नहीं करना।"
+
+#: .\Templates\faq.html:81
+msgid "  Can I donate blood during my menstrual cycle?"
+msgstr "  क्या मैं मासिक धर्म के दौरान रक्तदान कर सकता/सकती हूँ?"
+
+#: .\Templates\faq.html:94
+msgid ""
+"  Yes, menstruating individuals can donate blood as long as they meet other "
+"eligibility criteria and feel comfortable doing so."
+msgstr ""
+"  हां, मासिक धर्म वाले व्यक्तियों कई अन्य पात्रता मानदंडों को पूरा करते हैं और उन्हें ऐसा करने "
+"में सहजता महसूस होती है।"
+
+#: .\Templates\faq.html:102
+msgid "  What should I do before and after donating blood?"
+msgstr "  रक्तदान से पहले और बाद में मुझे क्या करना चाहिए?"
+
+#: .\Templates\faq.html:115
+msgid ""
+" Before donating, stay hydrated and have a light meal. After donating, rest "
+"for a short while, hydrate well, and avoid heavy lifting or strenuous "
+"activities."
+msgstr ""
+" रक्तदान से पहले, पर्याप्त पानी पीना और हलका भोजन करें। रक्तदान के बाद, थोड़ी देर के लिए "
+"आराम करें, पर्याप्त पानी पीना, और भारी सामग्री उठाने या कठिन कार्यों से बचें।"
+
+#: .\Templates\faq.html:126
+msgid "Sanjivani - Terms and Conditions"
+msgstr "संजीवनी - नियम और शर्तें"
+
+#: .\Templates\faq.html:128
+msgid ""
+"These terms and conditions govern your use of the Sanjivani website and "
+"services. By accessing or using the Sanjivani platform, you agree to abide "
+"by these Terms. If you do not agree with any part of these Terms, please "
+"refrain from using our website and services."
+msgstr ""
+"ये नियम और शर्तें संजीवनी वेबसाइट और सेवाओं के उपयोग को नियंत्रित करती हैं। संजीवनी "
+"प्लेटफ़ॉर्म तक पहुँचने या उसका उपयोग करके, आप इन नियमों का पालन करने के लिए सहमत होते हैं। "
+"अगर आप इन नियमों के किसी भाग से सहमत नहीं हैं, तो कृपया हमारी वेबसाइट और सेवाओं का "
+"उपयोग न करने की व्यतिगता करें।"
+
+#: .\Templates\faq.html:130
+msgid "1. Eligibility:"
+msgstr "1. पात्रता जांचें"
+
+#: .\Templates\faq.html:131
+msgid ""
+"You must be at least 17 years old (age may vary by country) to register as a "
+"blood donor on Sanjivani. By using our services, you affirm that you meet "
+"the minimum age requirement and are in good health."
+msgstr ""
+"संजीवनी पर रक्तदाता के रूप में पंजीकरण करने के लिए आपकी आयु कम से कम 17 वर्ष होनी चाहिए "
+"(आयु देशानुसार भिन्न हो सकती है)। हमारी सेवाओं का उपयोग करके, आप पुष्टि करते हैं कि आप "
+"न्यूनतम आयु आवश्यकता को पूरा करते हैं और आप अच्छे स्वास्थ्य में हैं।"
+
+#: .\Templates\faq.html:133
+msgid "2. Registration and User Information: "
+msgstr "2. पंजीकरण और उपयोगकर्ता जानकारी:"
+
+#: .\Templates\faq.html:134
+msgid ""
+" When registering as a blood donor, you agree to provide accurate, complete, "
+"and up-to-date information. You are solely responsible for maintaining the "
+"confidentiality of your account credentials and are liable for any "
+"activities conducted through your account."
+msgstr ""
+" रक्तदाता के रूप में पंजीकरण करते समय, आप सहमत होते हैं कि आप सटीक, पूर्ण और अद्यतित "
+"जानकारी प्रदान करेंगे। आपकी खाता प्रमाण-पत्रों की गोपनीयता की रक्षा करने की केवल आपकी "
+"जिम्मेदारी है और आपके खाते के माध्यम से की गई किसी भी गतिविधियों के लिए आप उत्तरदायी हैं।"
+
+#: .\Templates\faq.html:136
+msgid "3. Donor Health and Eligibility:"
+msgstr "3. दाता का स्वास्थ्य और पात्रता:"
+
+#: .\Templates\faq.html:137
+msgid ""
+"Before donating blood, you must ensure that you meet the eligibility "
+"criteria as specified on the website. If you have any medical conditions or "
+"doubts about your eligibility, consult a healthcare professional before "
+"proceeding with the donation."
+msgstr ""
+"रक्तदान करने से पहले, आपको सुनिश्चित करना होगा कि आप वेबसाइट पर निर्धारित पात्रता "
+"मानदंडों को पूरा करते हैं। यदि आपके पास कोई चिकित्सा स्थितियाँ हैं या आपकी पात्रता के बारे "
+"में कोई संदेह है, तो रक्तदान के साथ आगे बढ़ने से पहले एक स्वास्थ्य सेवा पेशेवर से परामर्श करें।"
+
+#: .\Templates\faq.html:139
+msgid "4. Blood Drive Events:"
+msgstr "4. रक्त यात्रा आयोजन:"
+
+#: .\Templates\faq.html:140
+msgid ""
+"Sanjivani may organize blood drive events in collaboration with various "
+"partners. Participation in these events is voluntary, and donors are "
+"expected to adhere to the guidelines and instructions provided during the "
+"event."
+msgstr ""
+"संजीवनी विभिन्न साथी संगठनों के सहयोग से रक्तदान यात्रा आयोजित कर सकता है। इन घटनाओं में "
+"भाग लेना स्वैच्छिक है, और दाताओं की उम्मीद होती है कि वे घटना के दौरान प्रदान की गई "
+"दिशानिर्देशों और निर्देशों का पालन करेंगे।"
+
+#: .\Templates\faq.html:142
+msgid " 5. Donation Process:"
+msgstr " 5. दान प्रक्रिया:"
+
+#: .\Templates\faq.html:143
+msgid ""
+" Donors must follow all instructions provided during the blood donation "
+"process. Sanjivani and its associated healthcare partners shall not be "
+"liable for any complications arising from non-compliance or failure to "
+"follow medical advice."
+msgstr ""
+" दाताओं को रक्तदान प्रक्रिया के दौरान प्रदान की गई सभी निर्देशों का पालन करना होगा। "
+"संजीवनी और उसके संबंधित स्वास्थ्य साथी किसी भी असुविधाओं के लिए जिम्मेदार नहीं होंगे जो "
+"अनुपालन या चिकित्सा सलाह का पालन नहीं करने से होती हैं।"
+
+#: .\Templates\faq.html:145
+msgid "6. Privacy and Data Security:"
+msgstr "6. गोपनीयता और डेटा सुरक्षा:"
+
+#: .\Templates\faq.html:146
+msgid ""
+"Sanjivani takes the privacy and security of user data seriously. By using "
+"our platform, you consent to the collection, use, and storage of your "
+"personal information in accordance with our Privacy Policy."
+msgstr ""
+"संजीवनी प्रयोक्ता डेटा की गोपनीयता और सुरक्षा को गंभीरता से लेता है। हमारे प्लेटफ़ॉर्म का "
+"उपयोग करके, आप हमारी गोपनीयता नीति के अनुसार अपनी व्यक्तिगत जानकारी का संग्रहण, "
+"उपयोग और संग्रहण करने की सहमति देते हैं।"
+
+#: .\Templates\faq.html:148
+msgid " 7. Content Guidelines:"
+msgstr " 7. सामग्री मार्गदर्शिकाएँ:"
+
+#: .\Templates\faq.html:149
+msgid ""
+" Users are prohibited from posting, uploading, or sharing any content that "
+"is offensive, inappropriate, or violates any applicable laws. Sanjivani "
+"reserves the right to remove any such content and terminate the accounts of "
+"users who breach this policy."
+msgstr ""
+" प्रयोक्ताओं को आपत्तिजनक, अनुचित या किसी भी प्रासंगिक कानूनों का उल्लंघन करने वाली कोई "
+"भी सामग्री पोस्ट करने, अपलोड करने या साझा करने से निषिद्ध है। संजीवनी को ऐसी किसी भी "
+"सामग्री को हटाने और ऐसे प्रयोक्ताओं के खाते को समाप्त करने का अधिकार सुरक्षित रखा गया है "
+"जिन्होंने इस नीति का उल्लंघन किया है।"
+
+#: .\Templates\faq.html:151
+msgid " 8. Intellectual Property:"
+msgstr " 8. बौद्धिक संपत्ति:"
+
+#: .\Templates\faq.html:152
+msgid ""
+" All content, trademarks, logos, and intellectual property displayed on the "
+"Sanjivani platform are the property of their respective owners and protected "
+"by applicable copyright and intellectual property laws. Users are not "
+"allowed to use, reproduce, or distribute any such material without explicit "
+"permission."
+msgstr ""
+" संजीवनी प्लेटफ़ॉर्म पर प्रदर्शित सभी सामग्री, ट्रेडमार्क, लोगो और बौद्धिक संपत्ति उनके "
+"संबंधित मालिकों की संपत्ति हैं और प्रासंगिक कॉपीराइट और बौद्धिक संपत्ति कानूनों द्वारा "
+"संरक्षित हैं। प्रयोक्ताओं को बिना स्पष्ट सहमति के ऐसी किसी भी सामग्री का उपयोग, "
+"पुनर्उत्पादन या वितरण करने की अनुमति नहीं है।"
+
+#: .\Templates\faq.html:154
+msgid "9. Service Fees:"
+msgstr "9. सेवा शुल्क:"
+
+#: .\Templates\faq.html:155
+msgid ""
+"Sanjivani may charge service fees for certain premium features or services "
+"offered on the platform. Any applicable fees will be clearly communicated, "
+"and you will have the option to accept or decline before proceeding."
+msgstr ""
+"संजीवनी प्लेटफ़ॉर्म पर पेशेवर सुविधाओं या सेवाओं के लिए सेवा शुल्क ले सकता है। किसी भी "
+"प्रासंगिक शुल्कों को स्पष्ट रूप से संदेशित किया जाएगा, और आपको आगे बढ़ने से पहले स्वीकार या "
+"इनकार का विकल्प होगा।"
+
+#: .\Templates\faq.html:157
+msgid " 10. Termination of Services:"
+msgstr " 10. सेवाओं का समापन:"
+
+#: .\Templates\faq.html:158
+msgid ""
+" Sanjivani reserves the right to suspend or terminate your access to the "
+"platform and services at any time and for any reason, with or without notice."
+msgstr ""
+" संजीवनी को आपकी प्लेटफ़ॉर्म और सेवाओं तक पहुँच को किसी भी समय और किसी भी कारण के लिए "
+"स्थगित या समाप्त करने का अधिकार सुरक्षित रखा गया है, सूचना के साथ या बिना सूचना के।"
+
+#: .\Templates\faq.html:160
+msgid " 11. Limitation of Liability:"
+msgstr " 11. जिम्मेदारी की सीमा:"
+
+#: .\Templates\faq.html:161
+msgid ""
+" Sanjivani shall not be liable for any damages, injuries, or losses "
+"resulting from the use of our platform, services, or any content provided "
+"herein."
+msgstr ""
+" संजीवनी हमारे प्लेटफ़ॉर्म, सेवाओं या यहाँ प्रदान की गई किसी भी सामग्री का उपयोग करने से "
+"होने वाली किसी भी क्षति, चोटें या नुकसान के लिए जिम्मेदार नहीं होगा।"
+
+#: .\Templates\faq.html:163
+msgid " 12. Updates and Modifications:"
+msgstr " 12. अपडेट और संशोधन:"
+
+#: .\Templates\faq.html:164
+msgid ""
+" Sanjivani may update or modify these Terms from time to time. We encourage "
+"users to review the Terms regularly. Continued use of our services after any "
+"modifications indicate your acceptance of the updated Terms."
+msgstr ""
+" संजीवनी समय-समय पर इन नियमों को अपडेट या संशोधित कर सकता है। हम प्रयोक्ताओं से प्रेरित "
+"करते हैं कि वे नियमों की नियमित रूप से समीक्षा करें। किसी भी संशोधन के बाद हमारी सेवाओं का "
+"जारी रखने का परिणाम आपके अद्यतित नियमों की स्वीकृति की सूचना देता है।"
+
+#: .\Templates\faq.html:166
+msgid " 13. Governing Law:"
+msgstr " 13. संचालन कानून:"
+
+#: .\Templates\faq.html:167
+msgid ""
+"These Terms shall be governed by and construed in accordance with the laws "
+"of INDIA, without regard to its conflict of law principles."
+msgstr ""
+"ये नियम भारत के कानूनों द्वारा शासित किए जाएंगे और उसके कानून के सिद्धांतों के साथ अनुसारित "
+"किए जाएंगे, किसी भी विधिक टकराव के बिना।"
+
+#: .\Templates\faq.html:169
+msgid ""
+" If you have any questions or concerns regarding these Terms and Conditions, "
+"please contact us at "
+msgstr ""
+" अगर आपके पास इन नियमों और शर्तों से संबंधित कोई सवाल या चिंता है, तो कृपया हमसे संपर्क "
+"करें:"
+
+#: .\Templates\faq.html:169
+msgid " CONTACT US"
+msgstr " हमसे संपर्क करें"
+
+#: .\Templates\footer.html:23
+msgid "Quick Links"
+msgstr "त्वरित लिंक्स"
+
+#: .\Templates\footer.html:25
+msgid "About"
+msgstr "हमारे बारे में"
+
+#: .\Templates\footer.html:29
+msgid "FAQ"
+msgstr "पूछे जाने वाले प्रश्न"
+
+#: .\Templates\footer.html:33 .\Templates\header.html:22
+msgid "Contact"
+msgstr "संपर्क"
+
+#: .\Templates\footer.html:40
+msgid "Subscribe Us"
+msgstr "हमें सब्सक्राइब करें"
+
+#: .\Templates\footer.html:41
+msgid "Subscribe to get latest news article and resources "
+msgstr "नवीनतम समाचार लेख और संसाधन प्राप्त करने के लिए सब्सक्राइब करें"
+
+#: .\Templates\footer.html:57
+msgid "Subscribe_Now_..."
+msgstr "अब_सदस्यता_लें..."
+
+#: .\Templates\footer.html:58
+msgid "Subscribe"
+msgstr "सब्सक्राइब"
+
+#: .\Templates\footer.html:65
+msgid "Gallery"
+msgstr "गैलरी"
+
+#: .\Templates\footer.html:95
+msgid "Copyright Reserved to SANJIVANI by"
+msgstr "कॉपीराइट संरक्षित संजीवनी द्वारा"
+
+#: .\Templates\footer.html:95
+msgid "SHREYA "
+msgstr "श्रेया"
+
+#: .\Templates\header.html:18
+msgid "Terms"
+msgstr "शर्तें"
+
+#: .\Templates\header.html:41
+msgid "SANJIVANI"
+msgstr "संजीवनी"
+
+#: .\Templates\header.html:52
+msgid "Search"
+msgstr "खोज"
+
+#: .\Templates\header.html:66
+msgid "MENU"
+msgstr "मेन्यू"
+
+#: .\Templates\header.html:75
+msgid "JOIN US"
+msgstr "हमसे जुड़ें"
+
+#: .\Templates\header.html:77
+msgid "ABOUT SANJIVANI"
+msgstr "अबाउट संजीवनी"
+
+#: .\Templates\header.html:82
+msgid "ELIGIBILITY"
+msgstr "पात्रता"
+
+#: .\Templates\index.html:14
+msgid "Why Wait To Save A Life?"
+msgstr "जीवन बचाने के लिए क्यों इंतजार करें?"
+
+#: .\Templates\index.html:15
+msgid "Giving = Living..!"
+msgstr "देना = जीना..!"
+
+#: .\Templates\index.html:19 .\Templates\index.html:29
+#: .\Templates\index.html:39
+msgid "BE A HERO"
+msgstr "एक नायक बनो।"
+
+#: .\Templates\index.html:25
+msgid "Donate Blood,"
+msgstr "रक्त दान करें,"
+
+#: .\Templates\index.html:25
+msgid "Share Love"
+msgstr "प्यार बांटें"
+
+#: .\Templates\index.html:35
+msgid "Heroes Donate Blood,"
+msgstr "हेरोस रक्तदान करते हैं"
+
+#: .\Templates\index.html:35
+msgid "Are You One?"
+msgstr "आप भी उनमें से एक हैं?"
+
+#: .\Templates\index.html:55
+msgid "WHY"
+msgstr "क्यों"
+
+#: .\Templates\index.html:55
+msgid "YOU??"
+msgstr "आप??"
+
+#: .\Templates\index.html:59
+msgid ""
+"The act of organ donation transforms grief into purpose, as we find comfort "
+"in knowing that our loved one's legacy lives on through others."
+msgstr ""
+"अंग दान का कार्य दुःख को उद्देश्य में बदल देता है, क्योंकि हमें यह जानकर आराम मिलता है कि "
+"हमारे प्रियजन की विरासत दूसरों के माध्यम से जीवित रहती है।"
+
+#: .\Templates\index.html:60
+msgid ""
+"In donating blood, you become a silent hero, saving lives with every drop "
+"you give."
+msgstr "रक्तदान करके, आप एक मूक नायक बन जाते हैं और अपनी हर बूंद से जिंदगियाँ बचाते हैं।"
+
+#: .\Templates\index.html:61
+msgid ""
+"In donating blood and organs, we unite as a compassionate society, offering "
+"hope and healing to those in their darkest hours."
+msgstr ""
+"रक्त और अंग दान करने में, हम एक दयालु समाज के रूप में एकजुट होते हैं, जो उनके सबसे बुरे समय में "
+"लोगों को आशा और उपचार प्रदान करते हैं।"
+
+#: .\Templates\index.html:68
+msgid "ABOUT"
+msgstr "अबाउट"
+
+#: .\Templates\index.html:68
+msgid "SANJIVANI..."
+msgstr "संजीवनी..."
+
+#: .\Templates\index.html:69
+msgid ""
+"Welcome to Sanjivani - where compassion and community unite to save lives "
+"and inspire hope for a brighter future. Join us in this life saving journey!"
+msgstr ""
+"संजीवनी में आपका स्वागत है - जहां करुणा और समुदाय जीवन बचाने के लिए एकजुट होते हैं और "
+"उज्जवल भविष्य की आशा जगाते हैं। इस जीवन रक्षक यात्रा में हमारे साथ जुड़ें!"
+
+#: .\Templates\index.html:86
+msgid "Deaths"
+msgstr "मौतें"
+
+#: .\Templates\index.html:93
+msgid "Blood Received Units"
+msgstr "रक्त प्राप्त इकाइयाँ"
+
+#: .\Templates\index.html:100
+msgid "Required Blood Units"
+msgstr "आवश्यक रक्त इकाइयाँ"
+
+#: .\Templates\index.html:111
+msgid "MISSION"
+msgstr "उद्देश्य"
+
+#: .\Templates\index.html:112
+msgid ""
+"To save lives and promote health by facilitating the easy and timely access "
+"to blood donation services through our website, Sanjivani."
+msgstr ""
+"हमारी वेबसाइट, संजीवनी के माध्यम से रक्तदान सेवाओं तक आसान और समय पर पहुंच की सुविधा "
+"प्रदान करके जीवन बचाने और स्वास्थ्य को बढ़ावा देना।"
+
+#: .\Templates\index.html:115 .\Templates\index.html:125
+#: .\Templates\index.html:135
+msgid "Last updated 3 mins ago"
+msgstr "अंतिम बार 3 मिनट पहले अपडेट किया गया"
+
+#: .\Templates\index.html:121
+msgid "VISION"
+msgstr "दृष्टि"
+
+#: .\Templates\index.html:122
+msgid ""
+"Our vision is to create a world where no life is lost due to a shortage of "
+"blood, and every individual in need can receive the required blood donation "
+"with utmost convenience."
+msgstr ""
+"हमारा लक्ष्य एक ऐसी दुनिया बनाना है जहां रक्त की कमी के कारण किसी की जान न जाए और "
+"हर जरूरतमंद व्यक्ति को अत्यंत सुविधा के साथ आवश्यक रक्तदान मिल सके।"
+
+#: .\Templates\index.html:131
+msgid "VALUES"
+msgstr "मान"
+
+#: .\Templates\index.html:132
+msgid ""
+"Caring Threads of Life: Embracing Empathy, Encouraging Generosity, Fostering "
+"Trust, and Weaving a Strong Community of Lifesavers."
+msgstr ""
+"जीवन की देखभाल के सूत्र: सहानुभूति को अपनाना, उदारता को प्रोत्साहित करना, विश्वास को "
+"बढ़ावा देना, और जीवनरक्षकों का एक मजबूत समुदाय बुनना।"
+
+#: .\Templates\join.html:24
+msgid "Be A Donor"
+msgstr "दाता बनें"
+
+#: .\Templates\join.html:31
+msgid "Organ Donation"
+msgstr "अवयव दान"
+
+#: .\Templates\join.html:38
+msgid "Looking For Blood"
+msgstr "रक्त की तलाश"
+
+#: .\Templates\looking.html:13
+msgid "LOOKING FOR BLOOD"
+msgstr "खून की तलाश है"
+
+#: .\Templates\looking.html:16 .\Templates\organ.html:29
+msgid "Full Name"
+msgstr "पूरा_नाम"
+
+#: .\Templates\looking.html:22
+msgid "Patient_Name"
+msgstr "रोगी_का_नाम"
+
+#: .\Templates\looking.html:28 .\Templates\organ.html:35
+msgid "Email Address"
+msgstr "मेल_पता"
+
+#: .\Templates\looking.html:104
+msgid "Units Required:"
+msgstr "आवश्यक इकाइयाँ:"
+
+#: .\Templates\looking.html:130
+msgid "Requirement:"
+msgstr "मांग:"
+
+#: .\Templates\looking.html:133
+msgid "Requirement"
+msgstr "मांग"
+
+#: .\Templates\looking.html:134
+msgid "Platelets"
+msgstr "प्लेटलेट्स"
+
+#: .\Templates\looking.html:135 .\Templates\redirect.html:18
+msgid "Blood"
+msgstr "खून"
+
+#: .\Templates\looking.html:136
+msgid "Plasma"
+msgstr "प्लाज्मा"
+
+#: .\Templates\looking.html:141
+msgid "Find_A_Donor"
+msgstr "एक_दाता_खोजें"
+
+#: .\Templates\organ.html:26
+msgid "BE A ORGAN DONOR"
+msgstr "अंग दाता बनें"
+
+#: .\Templates\organ.html:124
+msgid "Wants to Donate:"
+msgstr "दान करना चाहता है:"
+
+#: .\Templates\organ.html:128
+msgid "HEART"
+msgstr "दिल"
+
+#: .\Templates\organ.html:132
+msgid "LIVER"
+msgstr "जिगर"
+
+#: .\Templates\organ.html:138
+msgid "LUNGS"
+msgstr "फेफड़े"
+
+#: .\Templates\organ.html:142
+msgid "KIDNEYS"
+msgstr "गुर्दे"
+
+#: .\Templates\organ.html:148
+msgid "PANCREAS"
+msgstr "अग्न्याशय"
+
+#: .\Templates\organ.html:152
+msgid "OTHER"
+msgstr "अन्य"
+
+#: .\Templates\organ.html:156
+msgid "If you selected 'Other', please specify"
+msgstr "यदि आपने 'अन्य' चुना है, तो कृपया निर्दिष्ट करें"
+
+#: .\Templates\organ.html:159
+msgid "Wants to Donate Tissues:"
+msgstr "ऊतक दान करना चाहता है:"
+
+#: .\Templates\organ.html:163
+msgid "CORNEAS"
+msgstr "कॉर्निया"
+
+#: .\Templates\organ.html:167
+msgid "SKIN"
+msgstr "त्वचा"
+
+#: .\Templates\organ.html:173
+msgid "BONES"
+msgstr "हड्डियाँ"
+
+#: .\Templates\organ.html:177
+msgid "HEART VESSELS"
+msgstr "हृदय वाहिकाएँ"
+
+#: .\Templates\organ.html:183
+msgid "BLOOD VESSELS"
+msgstr "रक्त वाहिकाएं"
+
+#: .\Templates\organ.html:187
+msgid "NONE"
+msgstr "कोई नहीं"
+
+#: .\Templates\organ.html:193
+msgid "Proof of Identification:"
+msgstr "पहचान का प्रमाण:"
+
+#: .\Templates\redirect.html:10
+msgid "Donor Information"
+msgstr "दाता जानकारी"
+
+#: .\Templates\redirect.html:16
+msgid "Email"
+msgstr "ईमेल"
+
+#: .\Templates\redirect.html:19
+msgid "State"
+msgstr "राज्य:"
+
+#: .\Templates\redirect.html:20
+msgid "City"
+msgstr "शहर:"
+
+#: .\Templates\redirect.html:36
+msgid "Blood Group Out Of Stock"
+msgstr "रक्त समूह उपलब्ध नहीं है"
+
+#: .\mywebsite\Lib\site-packages\captcha\fields.py:20
+#: .\mywebsite\Lib\site-packages\captcha\fields.py:21
+msgid "Error verifying reCAPTCHA, please try again."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\_termui_impl.py:518
+#, python-brace-format
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\_termui_impl.py:522
+#, python-brace-format
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:1120
+msgid "Aborted!"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:1309
+#: .\mywebsite\Lib\site-packages\click\decorators.py:559
+msgid "Show this message and exit."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:1340
+#: .\mywebsite\Lib\site-packages\click\core.py:1370
+#, python-brace-format
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:1387
+msgid "Options"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:1413
+#, python-brace-format
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:1429
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:1636
+msgid "Commands"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:1668
+msgid "Missing command."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:1746
+msgid "No such command {name!r}."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:2310
+msgid "Value must be an iterable."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:2331
+#, python-brace-format
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:2778
+#, python-brace-format
+msgid "env var: {var}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:2808
+msgid "(dynamic)"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:2821
+#, python-brace-format
+msgid "default: {default}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\core.py:2834
+msgid "required"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\decorators.py:528
+msgid "Show the version and exit."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:44
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:80
+#, python-brace-format
+msgid "Error: {message}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:72
+#, python-brace-format
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:121
+#, python-brace-format
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:123
+#, python-brace-format
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:179
+msgid "Missing argument"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:181
+msgid "Missing option"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:183
+msgid "Missing parameter"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:185
+#, python-brace-format
+msgid "Missing {param_type}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:192
+#, python-brace-format
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:212
+#, python-brace-format
+msgid "No such option: {name}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:224
+#, python-brace-format
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:262
+msgid "unknown error"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\exceptions.py:269
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\parser.py:474
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\click\shell_completion.py:318
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\shell_completion.py:324
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\termui.py:158
+msgid "Repeat for confirmation"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\termui.py:174
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\termui.py:176
+#, python-brace-format
+msgid "Error: {e.message}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\termui.py:187
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\termui.py:243
+msgid "Error: invalid input"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\termui.py:773
+msgid "Press any key to continue..."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:266
+#, python-brace-format
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:298
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:392
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:414
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:470
+#, python-brace-format
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:611
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:635
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:822
+msgid "file"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:824
+msgid "directory"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:826
+msgid "path"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:877
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:886
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:894
+#, python-brace-format
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:903
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:912
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:921
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\click\types.py:988
+#, python-brace-format
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\contrib\messages\apps.py:15
+msgid "Messages"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\mywebsite\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\paginator.py:50
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\paginator.py:52
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\paginator.py:54
+msgid "That page contains no results"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:104
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:752
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:165
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:176
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:259
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:267
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:279
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:287
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:316
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:296
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:317
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:308
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:315
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:351
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:357
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:392
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:401
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:410
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:420
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:438
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:461
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:347
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:386
+msgid "Enter a number."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:463
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:468
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:473
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:544
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\core\validators.py:605
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\base.py:1423
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:893
+msgid "and"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\base.py:1425
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\constraints.py:17
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:128
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:129
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:130
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:131
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:135
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:173
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1094
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1095
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1097
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1147
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1149
+msgid "String (unlimited)"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1253
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1354
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1358
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1493
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1362
+msgid "Date (without time)"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1489
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1497
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1502
+msgid "Date (with time)"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1626
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1628
+msgid "Decimal number"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1789
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1793
+msgid "Duration"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1845
+msgid "Email address"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1870
+msgid "File path"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1948
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1950
+msgid "Floating point number"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1990
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:1992
+msgid "Integer"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2088
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2105
+msgid "Small integer"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2113
+msgid "IPv4 address"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2144
+msgid "IP address"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2237
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2238
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2240
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2291
+msgid "Positive big integer"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2306
+msgid "Positive integer"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2321
+msgid "Positive small integer"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2337
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2373
+msgid "Text"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2448
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2452
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2456
+msgid "Time"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2564
+msgid "URL"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2588
+msgid "Raw binary data"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2653
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\__init__.py:2655
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\files.py:232
+msgid "File"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\files.py:393
+msgid "Image"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "A JSON object"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\json.py:28
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\related.py:919
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\related.py:921
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\related.py:1212
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\related.py:1269
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\related.py:1271
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\db\models\fields\related.py:1319
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\mywebsite\Lib\site-packages\django\forms\boundfield.py:184
+msgid ":?.!"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:91
+msgid "This field is required."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:298
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:467
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:1241
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:490
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:1242
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:517
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:551
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:552
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:621
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:622
+msgid "No file was submitted."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:623
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:625
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:630
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:694
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:857
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:949
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:1566
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:951
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:1070
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:1564
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:1071
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:1310
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\fields.py:1340
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\mywebsite\Lib\site-packages\django\forms\forms.py:98
+msgid ":"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\forms.py:244
+#: .\mywebsite\Lib\site-packages\django\forms\forms.py:328
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\formsets.py:63
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\formsets.py:67
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\formsets.py:72
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\formsets.py:484
+#: .\mywebsite\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:886
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:891
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:898
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:907
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:1338
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:1429
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\models.py:1568
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\utils.py:226
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\widgets.py:464
+msgid "Currently"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\widgets.py:465
+msgid "Change"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\forms\widgets.py:794
+msgid "Unknown"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\mywebsite\Lib\site-packages\django\template\defaultfilters.py:861
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\template\defaultfilters.py:891
+#: .\mywebsite\Lib\site-packages\django\template\defaultfilters.py:908
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\template\defaultfilters.py:910
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\template\defaultfilters.py:912
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\template\defaultfilters.py:914
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\template\defaultfilters.py:916
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\template\defaultfilters.py:918
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dateformat.py:73
+msgid "p.m."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dateformat.py:74
+msgid "a.m."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dateformat.py:79
+msgid "PM"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dateformat.py:80
+msgid "AM"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dateformat.py:152
+msgid "midnight"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dateformat.py:154
+msgid "noon"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:43
+msgid "may"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:48
+msgid "oct"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\text.py:78
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\text.py:254
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\mywebsite\Lib\site-packages\django\utils\text.py:273
+#: .\mywebsite\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\mywebsite\Lib\site-packages\django\views\csrf.py:111
+msgid "Forbidden"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\csrf.py:112
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\csrf.py:116
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\csrf.py:122
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\csrf.py:127
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\csrf.py:136
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\csrf.py:142
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\csrf.py:148
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:64
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:115
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:349
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\generic\list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\static.py:38
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\static.py:40
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\static.py:79
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:220
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:221
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:229
+msgid "Django Documentation"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:238
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Get started with Django"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:247
+msgid "Django Community"
+msgstr ""
+
+#: .\mywebsite\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Connect, get help, or contribute"
+msgstr ""

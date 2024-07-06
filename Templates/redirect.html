@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/redirect.css' %}">
+
+{% endblock %}
+{% block content %}
+<section class="donor-data">
+    <h2 style="text-align: center;">{% trans "Donor Information" %}</h2><br>
+    {% if donor %}
+    <div style="overflow:auto";>
+           <table>
+        <tr>
+            <th>{% trans "Name" %}</th>
+            <th>{% trans "Email" %}</th>
+            <th>{% trans "Phone" %}</th>
+            <th>{% trans "Blood" %}</th>
+            <th>{% trans "State" %}</th>
+            <th>{% trans "City" %}</th>
+            <th>{% trans "Medical History" %}</th>
+        </tr>
+        {% for d in donor %}
+        <tr> 
+            <td>{{ d.name }}</td>
+            <td>{{ d.email }}</td>
+            <td>{{ d.phone }}</td>
+            <td>{{ d.blood }}</td>
+            <td>{{ d.state }}</td>
+            <td>{{ d.city }}</td>
+            <td>{{d.med_history }}</td>
+        </tr>
+        {% endfor %}
+    </table></div><br>
+    {% else %}
+    <h4>{%trans "Blood Group Out Of Stock" %}</h4>
+    {% endif %}
+</section>
+<script>
+    function highlightAndScroll() {
+        var searchQuery = document.getElementById("searchInput").value;
+        var content = document.body.innerHTML;
+
+        var regex = new RegExp(searchQuery, 'gi');
+        var highlightedContent = content.replace(regex, '<mark>$&</mark>');
+
+        document.body.innerHTML = highlightedContent;
+
+        var firstMatch = document.querySelector("mark");
+        if (firstMatch) {
+            firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+</script>
+{% endblock %}

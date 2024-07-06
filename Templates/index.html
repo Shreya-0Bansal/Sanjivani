@@ -1,0 +1,155 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% endblock %}
+{% block content %}
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-inner" style="border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;">
+      <div class="carousel-item active">
+        <img src="{% static 'images/back.jpeg' %}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p>  {% trans "Why Wait To Save A Life?" %}<br>
+            {% trans "Giving = Living..!" %}<br>
+          <a href="{% url 'home:donor' %}"  class="call">
+            {% if 'donor' in request.path %}
+      {% else %}
+      {% endif %}{% trans "BE A HERO" %}</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/back3.jpg' %}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p>{% trans "Donate Blood," %}<br>{% trans "Share Love" %}<br>
+            <a href="{% url 'home:donor' %}"  class="call">
+              {% if 'donor' in request.path %}
+      {% else %}
+      {% endif %}{% trans "BE A HERO" %}</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/back2.jpg' %}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p>{% trans "Heroes Donate Blood," %}<br>{% trans "Are You One?" %}<br>
+            <a href="{% url 'home:donor' %}" class="call">
+              {% if 'donor' in request.path %}
+      {% else %}
+      {% endif %}{% trans "BE A HERO" %}</a></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <section class="container-fluid" style="height: 62px; background-color: aliceblue;"> 
+    <div class="row" > 
+    <div class="col-3" id="title">
+        <h5>{% trans "WHY" %}&ensp;{% trans "YOU??" %}</h5>
+    </div>
+     <div class="col" id="news"> 
+        <marquee class="news-content">
+            <p>{% trans "The act of organ donation transforms grief into purpose, as we find comfort in knowing that our loved one's legacy lives on through others." %}</p>
+            <p>{% trans "In donating blood, you become a silent hero, saving lives with every drop you give." %}</p> 
+            <p>{% trans "In donating blood and organs, we unite as a compassionate society, offering hope and healing to those in their darkest hours." %}</p> 
+</marquee> </div>
+</div> 
+</section>
+<section id="about" class="container" style="padding-top:25px;">
+  <div class="row pt-3 pb-3 ">
+    <div class="col-12 col-md-6 maindiv">
+      <h3>{% trans "ABOUT" %}&ensp;{% trans "SANJIVANI..." %}</h3>
+      <p>{% trans "Welcome to Sanjivani - where compassion and community unite to save lives and inspire hope for a brighter future. Join us in this life saving journey!" %}</p>
+      <!-- button -->
+    </div>
+    <div class="col-12 col-md-6 ">
+        <video width="100%"  autoplay loop muted>
+          <source src="{% static 'images/video.mp4' %}" />
+        </video>
+      </div>
+      </div>
+  </div>
+</section>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="counter">
+                <img src="{% static 'images/skull.webp' %}" alt="Deaths" class="icon">
+                <h3 data-target="12000" class="count">0</h3>
+                <h6>{% trans "Deaths" %}</h6>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="counter">
+                <img src="{% static 'images/bd.png' %}" alt="Received" class="icon">
+                <h3 data-target="2000000" class="count">0</h3>
+                <h6>{% trans "Blood Received Units" %}</h6>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="counter">
+                <img src="{% static 'images/cd.png' %}" alt="Required" class="icon">
+                <h3 data-target="14500000" class="count">0</h3>
+                <h6>{% trans "Required Blood Units" %}</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Mission, Vision, Goals -->
+  <div class="card-deck" style="padding-top:30px;padding-bottom: 20px;">
+    <div class="card">
+      <img class="card-img-top" src="{% static 'images/mi.jpg' %}" alt="Card image cap" style="width:200px; margin:auto;">
+      <div class="card-body">
+        <h5 class="card-title">{% trans "MISSION" %}</h5>
+        <p class="card-text">{% trans "To save lives and promote health by facilitating the easy and timely access to blood donation services through our website, Sanjivani." %}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">{% trans "Last updated 3 mins ago" %}</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'images/R.png' %}" alt="Card image cap" style="width:200px; margin:auto;">
+      <div class="card-body">
+        <h5 class="card-title">{% trans "VISION" %}</h5>
+        <p class="card-text">{% trans "Our vision is to create a world where no life is lost due to a shortage of blood, and every individual in need can receive the required blood donation with utmost convenience." %}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">{% trans "Last updated 3 mins ago" %}</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'images/va.jpg' %}" alt="Card image cap" style="width:200px; margin:auto;">
+      <div class="card-body">
+        <h5 class="card-title">{% trans "VALUES" %}</h5>
+        <p class="card-text">{% trans "Caring Threads of Life: Embracing Empathy, Encouraging Generosity, Fostering Trust, and Weaving a Strong Community of Lifesavers." %}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">{% trans "Last updated 3 mins ago" %}</small>
+      </div>
+    </div>
+  </div>
+  <script>
+    function highlightAndScroll() {
+        var searchQuery = document.getElementById("searchInput").value;
+        var content = document.body.innerHTML;
+
+        var regex = new RegExp(searchQuery, 'gi');
+        var highlightedContent = content.replace(regex, '<mark>$&</mark>');
+
+        document.body.innerHTML = highlightedContent;
+
+        var firstMatch = document.querySelector("mark");
+        if (firstMatch) {
+            firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+</script>
+{% endblock %}

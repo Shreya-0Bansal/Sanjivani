@@ -1,0 +1,100 @@
+/* slidshow */
+.carousel-caption p{
+margin-bottom: 145px;
+text-align: right;
+margin-left:auto;
+font-size: 3.2rem;
+color: maroon;
+text-shadow: 2px 2px maroon; 
+}
+.call{
+  background-color: maroon;
+  color: whitesmoke;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: 2px 2px 3px maroon;
+  box-shadow: 2px 2px 3px maroon;
+  transition: all 0.2s ease-in-out;
+}
+
+.call:hover{
+  background-color: #000000;
+  color: whitesmoke;
+  transform: scale(1.1);
+}
+
+.call:active{
+  transform: scale(0.97);
+}
+
+
+/* Marquee */
+
+#news{
+ background: #cc4444;
+ }
+#title{
+ text-align: center;
+ background: #c81c1c;
+ }
+
+#title h5{
+ font-size: 28px;
+ margin: 2%;
+ color: #ffffff;
+}
+
+#news marquee{
+ font-size: 28px;
+ color: aliceblue;
+}
+
+.news-content p{
+ display: inline}
+
+/* About Section */
+
+#about .maindiv {
+ text-align: justify;
+
+}
+#about .maindiv h3 {
+  font-size: 3rem;
+  color:maroon;
+  text-align: center;
+  
+}
+#about .maindiv p {
+  line-height: 2;
+  color: black;
+  font-size: 1.4rem;
+}
+
+/* Counting up */
+.container-fluid{
+  text-align: center;
+  background-color: #FF6F61;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.counter h3 {
+  padding: 0.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.counter h6 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: #ffffff;
+  font-weight: 800;
+}
+.icon {
+  height: 5rem;
+  width: auto;
+} 

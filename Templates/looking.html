@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/donor.css' %}">
+ {% endblock %}
+{% block content %}
+<section class="do">
+  <div class="donor">
+        <form action="{% url 'home:looking' %}" method="post">
+          {% csrf_token %}
+          <div class="row">
+            <h4 class="dot">{% trans "LOOKING FOR BLOOD" %}</h4>
+            <input type="hidden" name="form_type" id="looking" value="looking">
+            <div class="input-group input-group-icon">
+              <input type="text" name="name" placeholder={% trans "Full Name" %} required>
+              <div class="input-icon">
+                <i class="fa fa-user"></i>
+              </div>
+            </div>
+            <div class="input-group input-group-icon">
+              <input type="text" name="patient" placeholder={% trans "Patient_Name" %}>
+              <div class="input-icon">
+                <i class="fa fa-user"></i>
+              </div>
+            </div>
+            <div class="input-group input-group-icon">
+              <input type="email" name="mail" placeholder={% trans "Email Address" %} required>
+              <div class="input-icon">
+                <i class="fa fa-envelope"></i>
+            </div>
+          </div>
+          <div class="input-group input-group-icon">
+            <input type="number" name="phone" placeholder={% trans "Phone" %} required>
+            <div class="input-icon">
+              <i class="fa fa-phone-alt"></i>
+            </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h4 class="dot">{% trans "Date of Birth" %}</h4>
+              <div class="input-group" style="width:500px">
+                <div class="col-third">
+                  <input type="date" name="dob"  placeholder={% trans "DOB" %} required>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="row">
+            <h4 class="dot">{% trans "Address:" %}</h4>
+            <div class="input-group">
+            <textarea id="address" name="address" rows="4" cols="60" required></textarea>
+            </div>
+          </div>
+          
+          <div class="row">
+            <h4 class="dot">{% trans "State:" %}</h4>
+            <div class="col">
+            <select id="state" name="state" class="blood_group">
+              <option value="">{% trans "Select State" %}</option>
+              {% for state in states %}
+              <option value="{{ state.name }}">{{ state.name }}</option>
+                {% endfor %}
+          </select>
+        </div>
+        </div>
+        <div class="row">
+          <h4 class="dot">{% trans "City:" %}</h4>
+          <div class="col">
+          <select id="city" name="city" class="blood_group" disabled>
+              <option value="">{% trans "Select City" %}</option>
+          </select>
+        </div> 
+      </div>
+      <script>
+        const stateSelect = document.getElementById('state');
+        const citySelect = document.getElementById('city');
+    
+        stateSelect.addEventListener('change', () => {
+            const stateName = stateSelect.value;
+            citySelect.disabled = true;
+            citySelect.innerHTML = '<option value="" disabled selected>Select a city</option>';
+    
+            if (stateName) {
+                fetch(`/get_cities/?state_name=${stateName}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        for (const city of data) {
+                            const option = document.createElement('option');
+                            option.value = city.name;
+                            option.textContent = city.name;
+                            citySelect.appendChild(option);
+                        }
+                        citySelect.disabled = false;
+                    });
+            }
+        });
+    </script>
+
+          <div class="row">
+            <div class="col">
+              <h4 class="dot">{% trans "Units Required:" %}</h4>
+              <div class="input-group">
+                <div class="col-third">
+                  <input type="number" name="units" placeholder="0">
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="row">
+            <h4 class="dot">{% trans "Select Blood Group:" %}</h4>
+            <div class="col">
+                <select class="blood_group" name="blood_group"required>
+                  <option value="" disabled selected>{% trans "Blood Group" %}</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <h4 class="dot">{% trans "Requirement:" %}</h4>
+              <div class="col">
+              <select class="blood_group" name="require" required>
+                <option value="" disabled selected>{% trans "Requirement" %}</option>
+                  <option value="platelets">{% trans "Platelets" %}</option>
+                  <option value="blood">{% trans "Blood" %}</option>
+                  <option value="plasma">{% trans "Plasma" %}</option>
+                </select>
+              </div>
+            </div>
+    
+            <input type="submit" value={% trans "Find_A_Donor" %}>
+            <input type="reset" value={% trans "Clear" %}>
+        </form>
+    </section>
+    <script>
+      function highlightAndScroll() {
+          var searchQuery = document.getElementById("searchInput").value;
+          var content = document.body.innerHTML;
+  
+          var regex = new RegExp(searchQuery, 'gi');
+          var highlightedContent = content.replace(regex, '<mark>$&</mark>');
+  
+          document.body.innerHTML = highlightedContent;
+  
+          var firstMatch = document.querySelector("mark");
+          if (firstMatch) {
+              firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+      }
+  </script>
+    {% endblock %}

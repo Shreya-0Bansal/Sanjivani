@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
+{% block style %} 
+<link rel="stylesheet" href="{% static 'css/event.css' %}">
+ {% endblock %}
+{% block content %}
+ <section class="light">
+        <div class="container py-2">
+            <div class="h1 text-center text-dark" id="pageHeaderTitle">{% trans "EVENTS" %}</div>
+    
+            <article class="postcard light red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="{% static 'images/run.jpg' %}" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title">{% trans "Champions Gala" %}</h1>
+                    <div class="postcard__subtitle small">
+                        <time>
+                            <i class="fas fa-calendar-alt mr-2"></i> {% trans "Thursday, April 4, 2024" %}
+                        </time><br><span><i class="far fa-map"></i> {% trans "Venue: Suburban Collection Showplace, United States " %}</span>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">{% trans "The annual Champions Gala has recognized more than 100 people and organizations supporting organ, eye and tissue donation at the highest level in Michigan since the event began in 2019." %}</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item play" style="list-style: none;">
+                            <a href="https://giftoflifemichigan.org/event/champions-gala"class="event"><i class="fas fa-play mr-2"></i> {% trans "Learn More" %}</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard light red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="{% static 'images/event2.png' %}"/>	
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title">{% trans "Healthcare Summit 2023" %}</h1>
+                    <div class="postcard__subtitle small">
+                        <time>
+                            <i class="fas fa-calendar-alt mr-2"></i>{% trans "Thurs, 24th August 2023" %}
+                        </time><br><span><i class="far fa-map"></i>{% trans "Venue: ITC Maurya, New Delhi" %}</span>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">{% trans "It's time again for our stellar third edition of the Healthcare Leaders Summit hosted by The Economic Times - ETHealthworld, an annual gathering where policymakers, academicians, and healthcare stakeholders come together to discuss important healthcare issues in India and beyond." %}</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item play" style="list-style: none;">
+                            <a href="https://health.economictimes.indiatimes.com/healthcare-leaders-summit?ag=TOP_PROMO_Events&utm_source=TOP_PROMO_Events&utm_content=ET+Healthcare+Leaders+Summit+2023&utm_medium=Internal&utm_campaign=Product_Promo_Widget&utm_index=3"class="event"><i class="fas fa-play mr-2"></i>{% trans "Learn More" %}</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard light">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="{% static 'images/event4.jpg' %}" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title">{% trans "Mumbai Ultra Blood Donation" %}</h1>
+                    <div class="postcard__subtitle small">
+                        <time>
+                            <i class="fas fa-calendar-alt mr-2"></i>{% trans " Tue, Aug 15 2023" %}
+                        </time><br><span><i class="far fa-map"></i> {% trans "Venue: Swatantryaveer Savarkar Rashtriya Smarak, Swatantryaveer Savarkar Rashtriya Smarak, 252, Veer Savarkar Marg, Shivaji Park, Dadar W,Mumbai, India, Mumbai, India" %}</span>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">{% trans "Team Mumbai Ultra alongwith Tata Memorial Hospital & Swatantryaveer Savarkar Smarak are conduting the Annual Marathon 12 Hour Blood Donation Drive for the 4th year in a row." %}</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item play" style="list-style: none;">
+                            <a href="https://allevents.in/mumbai/mumbai-ultra-blood-donation-drive/200025009158512?ref=eventlist-cat"class="event"><i class="fas fa-play mr-2"></i> {% trans "Learn More" %}</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="postcard light">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="{% static 'images/event.jpg' %}" />
+                </a>
+                <div class="postcard__text t-dark">
+                    <h1 class="postcard__title">{% trans "SR. NTR MEMORIAL 10K RUN 2023" %}</h1>
+                    <div class="postcard__subtitle small">
+                        <time>
+                            <i class="fas fa-calendar-alt mr-2"></i> {% trans "Sunday,September 10th 2023" %}
+                        </time><br><span><i class="far fa-map"></i>{% trans " Venue: People's Plaza Necklace Road Hyderabad" %}</span>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">{% trans "Lace up your running shoes and be part of this impactful event that celebrates the memory of the legendary actor Senior NTR and supports those affected by cancer." %} </div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item play" style="list-style: none;">
+                            <a href="https://allevents.in/hyderabad/sr-ntr-memorial-10k-run-2023/80007824044745" class="event"><i class="fas fa-play mr-2"></i>{% trans "Learn More" %}</a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+    <script>
+        function highlightAndScroll() {
+            var searchQuery = document.getElementById("searchInput").value;
+            var content = document.body.innerHTML;
+    
+            var regex = new RegExp(searchQuery, 'gi');
+            var highlightedContent = content.replace(regex, '<mark>$&</mark>');
+    
+            document.body.innerHTML = highlightedContent;
+    
+            var firstMatch = document.querySelector("mark");
+            if (firstMatch) {
+                firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+    </script>
+{% endblock %}

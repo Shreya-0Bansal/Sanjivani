@@ -1,0 +1,188 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %} {% get_current_language_bidi as LANGUAGE_BIDI %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'css/faq.css' %}">
+ {% endblock %} 
+{% block content %}
+<section class="faq">
+  <script src="https://kit.fontawesome.com/64d58efce2.js"></script>
+  <div class="container_">
+      <h1 class="title">{% trans "Frequently Asked Questions" %}</h1>
+      <div class="row">
+          <div class="col-md-6">
+              <div class="faq-img">
+                  <img src="{% static 'images/faq.jpg' %}" class="accordion-img" />
+              </div>
+          </div>
+          <div class="col-md-6">
+        <div class="content-accordion">
+          <div class="question-answer">
+            <div class="question">
+              <h3 class="title-question">
+                {% trans "What is the business model of SANJIVANI?" %}
+              </h3>
+              <button class="question-btn">
+                <span class="up-icon">
+                  <i class="fas fa-chevron-up"></i>
+                </span>
+                <span class="down-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </button>
+            </div>
+            <div class="answer">
+              <p>
+                {% trans "  Sanjivani's business model aims to create a sustainable and scalable platform that connects generous blood donors with patients in need, effectively saving lives and making a significant contribution to the healthcare ecosystem." %}
+              </p>
+            </div>
+          </div>
+          <div class="question-answer">
+            <div class="question">
+              <h3 class="title-question">{% trans "Is blood donation safe?" %}</h3>
+              <button class="question-btn">
+                <span class="up-icon">
+                  <i class="fas fa-chevron-up"></i>
+                </span>
+                <span class="down-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </button>
+            </div>
+            <div class="answer">
+              <p>
+                {% trans " Yes, blood donation is safe when conducted by trained professionals in a sterile environment. Strict safety protocols are followed to ensure the well-being of donors and recipients." %}
+              </p>
+            </div>
+          </div>
+          <div class="question-answer">
+            <div class="question">
+              <h3 class="title-question">
+                {% trans "  What are the basic eligibility criteria for blood donation?" %}
+              </h3>
+              <button class="question-btn">
+                <span class="up-icon">
+                  <i class="fas fa-chevron-up"></i>
+                </span>
+                <span class="down-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </button>
+            </div>
+            <div class="answer">
+              <p>
+                {% trans " The basic eligibility criteria typically include being at least 17 years old (may vary by country), meeting minimum weight requirements, being in good health, and not having certain medical conditions or infections." %}
+              </p>
+            </div>
+          </div>
+          <div class="question-answer">
+            <div class="question">
+              <h3 class="title-question">
+                {% trans "  Can I donate blood during my menstrual cycle?" %}
+              </h3>
+              <button class="question-btn">
+                <span class="up-icon">
+                  <i class="fas fa-chevron-up"></i>
+                </span>
+                <span class="down-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </button>
+            </div>
+            <div class="answer">
+              <p>
+                {% trans "  Yes, menstruating individuals can donate blood as long as they meet other eligibility criteria and feel comfortable doing so." %}
+              </p>
+            </div>
+          </div>
+
+          <div class="question-answer">
+            <div class="question">
+              <h3 class="title-question">
+                {% trans "  What should I do before and after donating blood?" %}
+              </h3>
+              <button class="question-btn">
+                <span class="up-icon">
+                  <i class="fas fa-chevron-up"></i>
+                </span>
+                <span class="down-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </button>
+            </div>
+            <div class="answer">
+              <p>
+                {% trans " Before donating, stay hydrated and have a light meal. After donating, rest for a short while, hydrate well, and avoid heavy lifting or strenuous activities." %}
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+  </section>
+  <section class="condition">
+<div class="terms">
+        <h1> {% trans "Sanjivani - Terms and Conditions" %}</h1>
+
+           <p> {% trans "These terms and conditions govern your use of the Sanjivani website and services. By accessing or using the Sanjivani platform, you agree to abide by these Terms. If you do not agree with any part of these Terms, please refrain from using our website and services." %}</p>
+            
+           <h2> {% trans "1. Eligibility:" %}</h2>
+               <p>{% trans "You must be at least 17 years old (age may vary by country) to register as a blood donor on Sanjivani. By using our services, you affirm that you meet the minimum age requirement and are in good health." %}</p>
+            
+               <h2> {% trans "2. Registration and User Information: " %}</h2>
+               <p>{% trans " When registering as a blood donor, you agree to provide accurate, complete, and up-to-date information. You are solely responsible for maintaining the confidentiality of your account credentials and are liable for any activities conducted through your account." %}</p>
+            
+               <h2>{% trans "3. Donor Health and Eligibility:" %}</h2>
+               <p> {% trans "Before donating blood, you must ensure that you meet the eligibility criteria as specified on the website. If you have any medical conditions or doubts about your eligibility, consult a healthcare professional before proceeding with the donation." %}</p>
+            
+               <h2>{% trans "4. Blood Drive Events:" %}</h2>
+               <p> {% trans "Sanjivani may organize blood drive events in collaboration with various partners. Participation in these events is voluntary, and donors are expected to adhere to the guidelines and instructions provided during the event." %}</p>
+            
+               <h2>{% trans " 5. Donation Process:" %}</h2>
+               <p>{% trans " Donors must follow all instructions provided during the blood donation process. Sanjivani and its associated healthcare partners shall not be liable for any complications arising from non-compliance or failure to follow medical advice." %}</p>
+            
+               <h2> {% trans "6. Privacy and Data Security:" %}</h2>
+               <p> {% trans "Sanjivani takes the privacy and security of user data seriously. By using our platform, you consent to the collection, use, and storage of your personal information in accordance with our Privacy Policy." %}</p>
+            
+               <h2>{% trans " 7. Content Guidelines:" %}</h2>
+               <p>{% trans " Users are prohibited from posting, uploading, or sharing any content that is offensive, inappropriate, or violates any applicable laws. Sanjivani reserves the right to remove any such content and terminate the accounts of users who breach this policy." %}</p>
+            
+               <h2> {% trans " 8. Intellectual Property:" %}</h2>
+               <p>{% trans " All content, trademarks, logos, and intellectual property displayed on the Sanjivani platform are the property of their respective owners and protected by applicable copyright and intellectual property laws. Users are not allowed to use, reproduce, or distribute any such material without explicit permission." %}</p>
+            
+               <h2> {% trans "9. Service Fees:" %}</h2>
+               <p> {% trans "Sanjivani may charge service fees for certain premium features or services offered on the platform. Any applicable fees will be clearly communicated, and you will have the option to accept or decline before proceeding." %}</p>
+            
+               <h2> {% trans " 10. Termination of Services:" %}</h2>
+               <p>{% trans " Sanjivani reserves the right to suspend or terminate your access to the platform and services at any time and for any reason, with or without notice." %}</p>
+            
+                <h2> {% trans " 11. Limitation of Liability:" %}</h2>
+                <p> {% trans " Sanjivani shall not be liable for any damages, injuries, or losses resulting from the use of our platform, services, or any content provided herein." %}</p>
+            
+                <h2>{% trans " 12. Updates and Modifications:" %}</h2>
+                <p>{% trans " Sanjivani may update or modify these Terms from time to time. We encourage users to review the Terms regularly. Continued use of our services after any modifications indicate your acceptance of the updated Terms." %}</p>
+            
+                <h2>{% trans " 13. Governing Law:" %}</h2>
+               <p> {% trans "These Terms shall be governed by and construed in accordance with the laws of INDIA, without regard to its conflict of law principles." %}</p>
+            
+           <p>{% trans " If you have any questions or concerns regarding these Terms and Conditions, please contact us at " %}<a href="{% url 'home:contact' %}" class="con">{% trans " CONTACT US" %}</a></p> 
+    </div>
+  </section>
+    <script>
+      function highlightAndScroll() {
+          var searchQuery = document.getElementById("searchInput").value;
+          var content = document.body.innerHTML;
+  
+          var regex = new RegExp(searchQuery, 'gi');
+          var highlightedContent = content.replace(regex, '<mark>$&</mark>');
+  
+          document.body.innerHTML = highlightedContent;
+  
+          var firstMatch = document.querySelector("mark");
+          if (firstMatch) {
+              firstMatch.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+      }
+  </script>
+    {% endblock %}
